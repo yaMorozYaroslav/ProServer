@@ -1,12 +1,19 @@
 import React from 'react';
 export const Header = () => {
+    const handleMouseEnter = e => {
+        e.target.style.color = "grey";
+        console.log("Mouse")
+    }
+    const handleMouseLeave = e => {
+        e.target.style.color = "black";
+    }
+
  return(
-    <div>
-  <ul id="test">
-      <li>item 1</li>
-      <li>item 2</li>
-      <li>item 3</li>
-  </ul>
+    <div className = "Header">
+  <button onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      className="button">Hover
+  </button>
     </div>
 
     );
