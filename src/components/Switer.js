@@ -6,12 +6,13 @@ export function Switer(){
 		console.log(`${myState}`);
 	};
 	React.useEffect(()=>{
-		window.addEventListener("dbclick", listener);
+		window.addEventListener("dblclick", listener);
 	},[]);
 	return (
-   <div className="App">
+   <div className="Switer">
       <h1>State: {myState}</h1>
-      <button onCkick={()=>setMyState(myState + h1)}>
+      <button onClick={()=>setMyState(myState + 1)}>
          updateState</button>
+    </div>
 		)
 }
