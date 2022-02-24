@@ -1,17 +1,19 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
 //import {WrapCont} from './styles/AppStyle.js';
 import {DropMenu} from './components/DropMenu';
-import {Header} from './components/Header';
+import {Hover} from './components/Hover';
 import {Switer} from './components/Switer';
 //import ForRef from './components/ForRef';
-import MapKey from './components/MapKey'
+import {Login} from './components/Login';
+import MainCont from './components/MainCont';
 export const App = () => {
-
+ 
   return (
     
   <>
-   <MapKey />
+   
+   <MainCont />
   </>
    
     );
