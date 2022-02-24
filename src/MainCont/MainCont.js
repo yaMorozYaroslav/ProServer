@@ -1,23 +1,14 @@
-import React from 'react';
-import './MainStyle.css'
-import {Hover} from '../components/Hover';
-export default class MainCont extends React.Component{
-   constructor(props){
-   	super(props);
-   	 this.handleEnter = this.handleEnter.bind(this);
-   	 this.state = {isEntered: false}
-   }
-   handleEnter(){
-   	this.setState({isEntered:true})
-   }
-   render(){
-   	const isEntered = this.state.isEntered;
-   	let enter;
-   	if(!isEntered){
-   	enter = <div onMouseEnter={this.handleEnter}>g</div>
-   	}else{
-   	enter =	<h1><Hover /></h1>
-   	}
-   	return <div>{enter}</div>
-   }
+import React, {Fragment} from 'react';
+import './MainCont.css';
+
+export const MainCont = () => {
+   return(
+     <div id="mainCont">
+
+      <div className="unit">Profile</div>
+      <div className="unit">Projects</div>
+      <div className="unit">Contacts</div>
+
+     </div>
+      )
 }
