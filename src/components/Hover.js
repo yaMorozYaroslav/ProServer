@@ -1,5 +1,5 @@
 import React from 'react';
-export const Header = () => {
+export const Hover = () => {
     const handleMouseEnter = e => {
         e.target.style.color = "grey";
         console.log("Mouse")

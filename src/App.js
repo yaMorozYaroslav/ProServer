@@ -6,7 +6,7 @@ import {Hover} from './components/Hover';
 import {Switer} from './components/Switer';
 //import ForRef from './components/ForRef';
 import {Login} from './components/Login';
-import MainCont from './components/MainCont';
+import MainCont from './MainCont/MainCont';
 export const App = () => {
  
   return (
