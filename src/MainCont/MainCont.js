@@ -2,9 +2,9 @@ import React from 'react';
 import styles from'./MainCont.module.css';
 import {BrowserRouter, Switch,
                 Routes, Route} from "react-router-dom";
-import Contacts from "./Elements/Contacts";
-import Profile from "./Elements/Profile";
-import Projects from "./Elements/Projects";
+import {Contacts} from "./Elements/Contacts";
+import {Profile} from "./Elements/Profile";
+import {Projects} from "./Elements/Projects";
 import {Layout} from "./Elements/Layout";
 import {Home} from "./Elements/Home";
 

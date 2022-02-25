@@ -15,8 +15,8 @@ export const Layout = () => {
 		          <Link to="/projects">Projects</Link>
 		     </li>
 		     <li>
-		          <Link to="/contacts">Projects</Link>
-		)      </li>
+		          <Link to="/contacts">Contacts</Link>
+		     </li>
 		      </ul>
 		     </nav>
 
