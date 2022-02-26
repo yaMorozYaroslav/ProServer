@@ -5,9 +5,9 @@ export const Layout = () => {
 		<>
 		  <nav>
 		    <ul>
-		      <li>
+		      <button>
 		        <Link to="/">Home</Link>
-		       </li>
+		       </button>
 		       <li>
 		         <Link to="/profile">Profile</Link>
 		       </li>

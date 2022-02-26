@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from'./MainCont.module.css';
+import styles from'./MainCont.module.css'; 
 import {BrowserRouter, Switch,
                 Routes, Route} from "react-router-dom";
 import {Contacts} from "./Elements/Contacts";
