@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import MainTogl from './MainCont/MainTogl';
+import MainTogl from './Gateway/MainTogl/MainTogl';
 import {Header} from './components/Header/Header';
 //import Calculator from './Calculator/Calculator';
 //import Form from './components/Form'

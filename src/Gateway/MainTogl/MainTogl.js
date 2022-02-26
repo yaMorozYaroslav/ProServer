@@ -1,7 +1,7 @@
 import React from 'react';
-import './MainTogl.css'
-import {MainCont} from './MainCont';
-import {Hover} from '../components/Hover';
+import styles from './MainTogl.module.css'
+import {MainCont} from '../MainCont/MainCont';
+import {Hover} from '../../components/Hover';
 export default class MainTogl extends React.Component{
 constructor(props){
    	super(props);
@@ -15,7 +15,7 @@ constructor(props){
    	const isEntered = this.state.isEntered;
    	let enter;
    	if(!isEntered){
-   	enter = <button id="red" onMouseEnter={this.handleEnter}> click</button>
+   	enter = <button className={styles.red} onMouseEnter={this.handleEnter}> click</button>
    	}else{
    	enter =	<div><MainCont/></div>
    	}
