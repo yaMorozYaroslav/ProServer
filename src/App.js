@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import MainTogl from './MainCont/MainTogl';
-import {Header} from './components/Header';
+import {Header} from './components/Header/Header';
 //import Calculator from './Calculator/Calculator';
 //import Form from './components/Form'
 export default class App extends React.Component{
