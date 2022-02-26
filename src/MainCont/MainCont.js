@@ -5,7 +5,7 @@ import {BrowserRouter, Switch,
 import {Contacts} from "./Elements/Contacts";
 import {Profile} from "./Elements/Profile";
 import {Projects} from "./Elements/Projects";
-import {Layout} from "./Elements/Layout";
+import {Layout} from "./Elements/Layout/Layout";
 import {Home} from "./Elements/Home";
 
 export const MainCont = () => {

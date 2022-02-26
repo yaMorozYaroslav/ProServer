@@ -1,0 +1,8 @@
+.nav{
+	display:flex;
+	margin-left:25%;
+}
+.but{
+	width: 250px;
+	height: 40px;
+}
