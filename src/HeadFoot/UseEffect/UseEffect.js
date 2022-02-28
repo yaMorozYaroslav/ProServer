@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useRef} from 'react';
-import styles from './UseEffect.module.css'
+import styles from './UseEffect.module.css'	
 export function UseEffect(){
 	const [refHov, hovered] = usePast();
 	return <h1 className={hovered

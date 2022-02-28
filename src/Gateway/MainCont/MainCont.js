@@ -2,11 +2,11 @@ import React from 'react';
 import styles from'./MainCont.module.css'; 
 import {BrowserRouter, Switch,
                 Routes, Route} from "react-router-dom";
-import {Contacts} from "../../Elements/Contacts";
-import {Profile} from "../../Elements/Profile";
-import {Projects} from "../../Elements/Projects";
-import {Layout} from "../../Elements/Layout/Layout";
-import {Home} from "../../Elements/Home";
+import {Contacts} from "../../Options/Contacts/Contacts";
+import {Profile} from "../../Options/Profile/Profile";
+import {Projects} from "../../Options/Projects/Projects";
+import {Layout} from "../../HeadFoot/Layout/Layout";
+import {Home} from "../../Options/Home/Home";
 
 export const MainCont = () => {
    return(

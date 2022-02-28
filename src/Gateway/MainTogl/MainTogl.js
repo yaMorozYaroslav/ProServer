@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './MainTogl.module.css'
 import {MainCont} from '../MainCont/MainCont';
-import {Hover} from '../../components/Hover';
+//import {Hover} from '../../components/Hover';
 export default class MainTogl extends React.Component{
 constructor(props){
    	super(props);
