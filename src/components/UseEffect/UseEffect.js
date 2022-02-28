@@ -1,7 +1,10 @@
 import React, {useState, useEffect, useRef} from 'react';
+import styles from './UseEffect.module.css'
 export function UseEffect(){
 	const [refHov, hovered] = usePast();
-	return <h1 ref={refHov}> {hovered?"Go out":"Touch"}</h1>;
+	return <h1 className={hovered
+		               ?styles.active
+		               :styles.unactive} ref={refHov}> Go out </h1>;
 }
 function usePast(){
 	const [hover, setHov] = useState(false);

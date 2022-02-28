@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import MainTogl from './Gateway/MainTogl/MainTogl';
 import {Header} from './components/Header/Header';
-import {UseEffect} from './components/UseEffect';
+import {UseEffect} from './components/UseEffect/UseEffect';
 //import {Listener} from './components/Listener';
 export default class App extends React.Component{
   render(){

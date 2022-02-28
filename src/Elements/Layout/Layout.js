@@ -1,14 +1,9 @@
+import React, {useState, useEffect, useRef} from 'react';
 import {Outlet, Link, NavLink} from "react-router-dom";
 import styles from './Layout.module.css';
 
 export const Layout = () => {
-  const [isClicked, setClick] = useState(false);
-  const ref = useRef(null);
-  const handClick=()=>setClick(true);
-
-  useEffect(()=>{
-  	const refObj
-  })
+  
 	return(
 		<>
 		  <nav className={styles.nav}>
