@@ -11,17 +11,25 @@ export const Layout = () => {
 		<>
 		  <nav >
 		    <div className={styles.div}>
-		      <button className={splitLocation[1]===""?styles.current:styles.murrent}>
-		        <Link className={styles.link} to="/">Home</Link>
+		      <button className={styles.but}>
+		        <Link className={splitLocation[1]===""
+		                        ?styles.current:styles.murrent}
+		                         to="/">Home</Link>
 		       </button>
-		       <button className={splitLocation[1]==="profile"?styles.current:styles.murrent}>
-		         <Link to="/profile">Profile</Link>
+		       <button className={styles.but}>
+		         <Link className={splitLocation[1]==="profile"
+		                         ?styles.current:styles.murrent} 
+		                         to="/profile">Profile</Link>
 		       </button>
-		       <button className={splitLocation[1]==="projects"?styles.current:styles.murrent}>
-		          <Link to="/projects">Projects</Link>
-		     </button>
-		     <button className={splitLocation[1]==="contacts"?styles.current:styles.murrent}>
-		          <Link to="/contacts">Contacts</Link>
+		       <button className={styles.but}>
+		          <Link  className={splitLocation[1]==="projects"
+		                 ?styles.current:styles.murrent}
+		                 to="/projects">Projects</Link>
+		     </button >
+		     <button className={styles.but}>
+		          <Link  className={splitLocation[1]==="contacts"
+		                           ?styles.current:styles.murrent} 
+		                           to="/contacts">Contacts</Link>
 		     </button>
 		      </div>
 		     </nav>
