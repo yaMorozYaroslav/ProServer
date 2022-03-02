@@ -1,5 +1,5 @@
 div{
-	margin-top: 50px;
+	margin-top: 10px;
 	text-align: center;
 }
 .red{
@@ -8,4 +8,16 @@ div{
 	border-radius: 200px;
 	background-color:  black;
 	border: 3px white solid;
+}
+.mainside{
+	display: flex;
+}
+.unit1{
+	width:  1000px;
+}
+.unit2{
+	widht: 200px;
+	margin-left: 100px;
+	color: white;
+	background-color: black;
 }
