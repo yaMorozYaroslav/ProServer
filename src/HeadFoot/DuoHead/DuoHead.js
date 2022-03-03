@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './Header.module.css';
-function DuoHead(props) {
+import styles from './DuoHead.module.css';
+function TwinHead(props) {
 	return(
    <div className={styles.double}>
     <div>{props.one}</div>
@@ -8,9 +8,9 @@ function DuoHead(props) {
    </div>
 		)
 }
-export function Header(){
+export function DuoHead(){
   return(
-  <DuoHead
+  <TwinHead
     one ={<div className={styles.head}>
            <div className={styles.block}>
            <h1 >Development</h1>

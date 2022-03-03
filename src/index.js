@@ -1,17 +1,17 @@
 import React from 'react';
 import {render} from 'react-dom';
-import {Header} from'./HeadFoot/Header/Header';
+import {DuoHead} from'./HeadFoot/DuoHead/DuoHead';
 import MainTogl from './Gateway/MainTogl/MainTogl';
 import {UseEffect} from './storage/UseEffect/UseEffect';
-import {Timer} from './storage/Timer';
+import {Delay} from './storage/Delay';
 
 const App=()=>{
   return(
     <>
-  <Header />
+  <DuoHead />
   <MainTogl/>
   <UseEffect/>
-  <Timer/>
+  <Delay/>
     </>
     )
 }
