@@ -13,6 +13,7 @@ constructor(props){
    	this.setState({isEntered:true})
    }
    render(){
+      //setInterval(()=>this.)
    	const isEntered = this.state.isEntered;
    	let enter;
    	if(!isEntered){
