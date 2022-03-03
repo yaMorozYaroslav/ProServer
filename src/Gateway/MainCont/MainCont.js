@@ -9,6 +9,15 @@ import {Layout} from "../../Options/Layout/Layout";
 import {Home} from "../../Options/Home/Home";
 
 export const MainCont = () => {
+  const [open, setOpen] = React.useState(false);
+
+  React.useEffect(()=>{
+    const timer = setTimeout(()=>{
+      setOpen(true)
+    }, 1000)
+  return ()=>clearTimeout(timer)
+  }, [])
+  if(!open) return <h1 className={styles.welcome}>Nice to meet you.</h1>
    return(
      <BrowserRouter>
        <Routes>
