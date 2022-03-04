@@ -16,8 +16,8 @@ div{
 	width:  1000px;
 }
 .unit2{
-	widht: 200px;
-	margin-left: 100px;
+	margin: 0px 0px 0px 60px;
+	border-radius: 10px;
 	color: white;
-	background-color: black;
+	background-image: url("../SideCont/second.jpg");
 }
