@@ -18,6 +18,6 @@ export function DuoHead(){
          </div>
         </div>}
          
-   two={<div className={styles.nohead}>Something </div>} />
+   two={<div className={styles.nohead}> </div>} />
    )
 }
