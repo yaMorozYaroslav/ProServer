@@ -8,13 +8,16 @@ export function Footer(){
  function useSomething(){
  const [it, setIt] = React.useState(false);
  const handIt = () => setIt(true);
+ const handThat = () => setIt(false);
  const useRef = React.useRef(null);
   React.useEffect(()=>{
   	const click = useRef.current;
   	if(click){
-  		click.addEventListener("mouseclick", handIt);
+  		click.addEventListener("click", handIt);
+  		click.addEventListener("click", handThat);
   	  return()=>{
-        click.removeEventListener("mouseclick", handIt);
+        click.removeEventListener("click", handIt);
+        click.removeEventLIstener("click", handThat);
   	 };
   	}
   },[useRef.current]);
