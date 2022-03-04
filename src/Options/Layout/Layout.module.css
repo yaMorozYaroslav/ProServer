@@ -4,22 +4,25 @@
 	list-style-type: none;
 }
 .but{
-	height: 40px;
+	height: 45px;
 	width: 250px;
 	border: 3px solid white;
 	background-color:  white;
 
 }
 .bud{
-	height: 40px;
+	height: 45px;
 	width: 250px;
 	border: 3px solid white;
-	background-color:  black;
+	background-color: steelblue;
+	border-radius: 10px;
 
 }
 .current{
-	font-size: 25px;
+	font-size: 30px;
 	color:  white;
+	font-family: Italy, cursive;
+	text-decoration: none;
 	
 }
 .murrent{
