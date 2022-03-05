@@ -2,8 +2,6 @@ import React from 'react';
 import {render} from 'react-dom';
 import {DuoHead} from'./HeadFoot/DuoHead/DuoHead';
 import MainTogl from './Gateway/MainTogl/MainTogl';
-
-import {Func} from './storage/Func';
 import {Footer} from './HeadFoot/Footer/Footer';
 
 
@@ -13,9 +11,7 @@ const App=()=>{
   <DuoHead />
   <MainTogl/>
   <Footer/>
-  <Func/>
-  
     </>
     )
-}
+  }
 render(<App/>, document.getElementById('root'));

@@ -16,10 +16,10 @@ React.useEffect(()=>{
   const useRef = path.current;
   if(useRef){
     useRef.addEventListener('mouseover', handOver);
-    useRef.addEventListener('mouseout', handOut)
+    useRef.addEventListener('mouseout', handOut);
     return()=>{
       useRef.removeEventListener('mouseover', handOver);
-      useRef.removeEventListener('mouseout', handOut)
+      useRef.removeEventListener('mouseout', handOut);
     }
   }
 }, [path.current])
