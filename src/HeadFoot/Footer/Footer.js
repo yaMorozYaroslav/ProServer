@@ -1,15 +1,10 @@
 import React from 'react';
 
-function useSome(){
-	const [click, setClick] = React.setState(0);
-    const roadRef = React.useRef(null);
-    const toggler = () => setClick(!click);
-}
+import styles from './Footer.module.css';
 
 export function Footer(){
 
-	const [click, setClick] = React.setState(0);
-	const roadRef = React.useRef(null);
+	const [click, setClick] = React.useState(false);
 	const toggler = () => setClick(!click);
 
 	const arrays= 
@@ -18,15 +13,22 @@ export function Footer(){
       "You are perfect just the way you are.",
       "You're someone's reason to smile."
 	]
-	
+
 	const random = Math.floor(Math.random()*arrays.length);
 
-	return  
+	return  (<div className={styles.body}>
+		    <div className={styles.psefoot}>
+		    <div className={styles.push}></div>
+            </div>
 	        <div 
-	           onClick={toggler}
-	           ref={roadRef}>{click
+	           className={styles.footer}
+	           onClick={toggler}>{!click
 		                           ?<h1>{random, arrays[random]}</h1>
-		                           :'null'}
+		                           :<h1>{random, arrays[random]}</h1>
+		                       }
 		    </div>
+		    </div>
+)
 }
+
 
