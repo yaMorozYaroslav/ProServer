@@ -6,7 +6,7 @@ import {Contacts} from "../../Options/Contacts/Contacts";
 import {Profile} from "../../Options/Profile/Profile";
 import {Projects} from "../../Options/Projects/Projects";
 import {Layout} from "../../Options/Layout/Layout";
-import {Home} from "../../Options/Home/Home";
+import {Home} from "../../Options/Intro/Intro";
 
 export const MainCont = () => {
   const [open, setOpen] = React.useState(false);

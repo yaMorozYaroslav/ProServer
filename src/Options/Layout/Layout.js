@@ -15,7 +15,7 @@ export const Layout = () => {
 		                        ?styles.bud:styles.but}>
 		        <Link className={splitLocation[1]===""
 		                        ?styles.current:styles.murrent}
-		                         to="/">Home</Link>
+		                         to="/">Introduction</Link>
 		       </button>
 		       <button className={splitLocation[1]==="profile"
 		                        ?styles.bud:styles.but}>
