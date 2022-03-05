@@ -23,7 +23,7 @@ export function Footer(){
 	        <div 
 	           className={styles.footer}
 	           onClick={toggler}>{!click
-		                           ?<h1>{random, arrays[random]}</h1>
+		                           ?<h1>Push me</h1>
 		                           :<h1>{random, arrays[random]}</h1>
 		                       }
 		    </div>

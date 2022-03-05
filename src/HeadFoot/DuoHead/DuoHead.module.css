@@ -1,7 +1,7 @@
 .head{
   display:flex;
   width: 600px;
-  height: 120px;
+  height: 90px;
   justify-content: center;
   margin: 0px 0px 0px 0px;
   background-image: url("./mesk.jpg");
@@ -10,8 +10,8 @@
 }
 
 .block{
-	margin:10px 150px 0px 0px;
-	font-size: 29px;
+	margin:2px 210px 0px 0px;
+	font-size: 24px;
 	display: flex;
 	color:white;
 }
@@ -23,6 +23,6 @@
 	margin: 0px 0px 0px 7px;
 	background-image: url("./net.jpg");
 	width:  720px;
-	height: 120px;
+	height: 90px;
 	border-radius: 10px;
 }
