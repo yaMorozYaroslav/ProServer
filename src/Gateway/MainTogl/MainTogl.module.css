@@ -18,8 +18,11 @@ div{
 	width:  1000px;
 }
 .unit2{
-	margin: 0px 0px 0px 97px;
+	margin: -20px 0px 0px 80px;
 	border-radius: 10px;
 	color: white;
-	background-image: url("../DuoSide/SideCont/second.jpg");
+	background-image: url("../../DuoSide/SideCont/second.jpg");
+}
+.unit3{
+	margin: 0px;
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './MainTogl.module.css'
 import {MainCont} from '../MainCont/MainCont';
-import {SideCont} from '../DuoSide/SideCont/SideCont';
-import {PsFoot} from '../DuoSide/PsFoot/PsFoot';
+import {SideCont} from '../../DuoSide/SideCont/SideCont';
+import {PsFoot} from '../../DuoSide/PsFoot/PsFoot';
 //import {Hover} from '../../components/Hover';
 export function MainTogl(){
    const [hover, setHover] = React.useState(false);
