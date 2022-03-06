@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './App.module.css';
 
 import {DuoHead} from'../HeadFoot/DuoHead/DuoHead';
-import MainTogl from '../Gateway/MainTogl/MainTogl';
+import {MainTogl} from '../Gateway/MainTogl/MainTogl';
 import {Footer} from '../HeadFoot/Footer/Footer';
 
 export function App(){
