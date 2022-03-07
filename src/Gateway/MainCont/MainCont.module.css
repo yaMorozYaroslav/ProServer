@@ -2,13 +2,10 @@
   display: flex;
   justify-content:  center;
   
-}
-.unit{
-  margin: 5px;
-  width: 200px;
-  height: 200px;
+
 }
 .welcome{
   margin-top: 100px;
   font-size: 70px;
+  color: white;
 }
