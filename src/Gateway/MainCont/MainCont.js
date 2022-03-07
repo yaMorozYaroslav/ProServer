@@ -14,7 +14,7 @@ export const MainCont = () => {
   React.useEffect(()=>{
     const timer = setTimeout(()=>{
       setOpen(true)
-    }, 3000)
+    }, 2900)
   return ()=>clearTimeout(timer)
   }, [])
   if(!open) return <h1 className={styles.welcome}>You are welcome.</h1>

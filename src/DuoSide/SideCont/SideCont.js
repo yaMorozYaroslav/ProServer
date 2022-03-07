@@ -5,7 +5,7 @@ export function SideCont(){
   React.useEffect(()=>{
     const timeout = setTimeout(()=>{
       setPic(true)
-    }, 1000)
+    }, 800)
     return()=>clearTimeout(timeout)
   }, [pic])
   if(!pic) return null 

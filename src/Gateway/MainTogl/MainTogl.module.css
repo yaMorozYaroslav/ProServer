@@ -1,19 +1,12 @@
 
 .red{
-	width: 120px;
-	height:  120px;
+	width: 280px;
+	height:  280px;
 	border-radius: 200px;
-	background-img: url("./keys.png");
-	margin: 15px 10px 0px 15px;
+	margin: 90px 10px 0px 492px;
 
 }
-.cont{
-	background-color:  white;
-	width: 150px;
-	height:150px;
-	border-radius: 200px;
-	margin: 10px 0px 0px 500px;
-}
+
 .mainside{
 	display: flex;
 }
@@ -21,11 +14,10 @@
 	width:  1000px;
 }
 .unit2{
-	margin: 3px 0px 0px 45px;
+	margin: 65px 0px 0px 35px;
 	border-radius: 10px;
-	border: 2px solid white;
 	background-image: url("../../DuoSide/SideCont/second.jpg");
 }
 .unit3{
-	margin: 0px;
+	
 }

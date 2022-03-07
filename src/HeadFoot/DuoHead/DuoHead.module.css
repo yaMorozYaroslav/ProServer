@@ -3,10 +3,9 @@
   width: 600px;
   height: 90px;
   justify-content: center;
-  margin: 3px 0px 0px 3px;
+  margin: 0px 0px 0px 3px;
   background-image: url("./mesk.jpg");
-  border: 2px solid white;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .block{
@@ -20,10 +19,9 @@
 }
 .nohead{
 	font-size: 25px;
-	margin: 3px 0px 0px 3px;
+	margin: 0px 0px 0px 0px;
 	background-image: url("./net.jpg");
-	width:  715px;
+	width:  730px;
 	height: 90px;
-	border-radius: 10px;
-	border: 2px solid white;
+	border-radius: 0px;
 }

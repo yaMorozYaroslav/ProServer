@@ -6,42 +6,43 @@
 }
 .but{
 	height: 40px;
-	width: 250px;
-	border:  1px solid white;
+	width: 160px;
+	border: none;
 	border-radius: 10px;
-	
-	opacity: .7;
-	margin: 5px 5px 5px 5px;
+	background-color: black;
+	opacity: .8;
+	margin: 5px 50px 5px 2px;
 
 }
 .bud{
-	height: 45px;
-	width: 250px;
-	border: 3px solid black;
+	height: 40px;
+	width: 180px;
+	border: 1px solid white;
 	background-color: steelblue;
 	border-radius: 10px;
-    margin-top: 3px;
+    margin: 5px 50px 0px 2px;
 }
 .current{
-	font-size: 32px;
+	font-size: 31px;
 	color:  white;
 	font-family: Italy, cursive;
 	text-decoration: none;
 	
 }
 .murrent{
-	font-size: 27px;
+	font-size: 28px;
 	color:  white;
 	font-family: Italy;
 	text-decoration:  none;
 
 }
 .outlet{
-	border: 3px solid black;
+	border: black;
 	border-radius: 10px;
 	background-color:  white;
 	width: 1000px;
-	height: 450px;
-	margin: -5px 0px 0px 30px;
+	height: 500px;
+	margin: -10px 0px 0px 30px;
+	opacity: .7;
 }
 
