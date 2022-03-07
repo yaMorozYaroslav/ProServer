@@ -17,7 +17,9 @@ export const MainCont = () => {
     }, 2900)
   return ()=>clearTimeout(timer)
   }, [])
-  if(!open) return <h1 className={styles.welcome}>You are welcome.</h1>
+  if(!open) return <div className={styles.contwelc}>
+                   <h1 className={styles.welcome}>Welcome.</h1>
+                   </div>
    return(
      <BrowserRouter>
        <Routes>
