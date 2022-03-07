@@ -39,6 +39,7 @@ export const Layout = () => {
 		     </nav>
 
 		     <div className={styles.outlet}><Outlet /></div>
+		     <div className={styles.layout}></div>
 		     </>		        
            )
          };
