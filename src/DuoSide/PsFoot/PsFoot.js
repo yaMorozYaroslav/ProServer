@@ -7,7 +7,7 @@ export function PsFoot(){
    React.useEffect(()=>{
    	const timeout = setTimeout(()=>{
    		setShow(true)
-   	}, 2000)
+   	}, 1700)
    	return()=>clearTimeout(timeout)
    }, [show])
    if(!show)return null

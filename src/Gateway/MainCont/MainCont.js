@@ -14,7 +14,7 @@ export const MainCont = () => {
   React.useEffect(()=>{
     const timer = setTimeout(()=>{
       setOpen(true)
-    }, 2900)
+    }, 2700)
   return ()=>clearTimeout(timer)
   }, [])
   if(!open) return <div className={styles.contwelc}>

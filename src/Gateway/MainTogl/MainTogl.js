@@ -3,7 +3,7 @@ import styles from './MainTogl.module.css'
 import {MainCont} from '../MainCont/MainCont';
 import {SideCont} from '../../DuoSide/SideCont/SideCont';
 import {PsFoot} from '../../DuoSide/PsFoot/PsFoot';
-import img from './keys.png';
+import img from './touch.png';
 //import {Hover} from '../../components/Hover';
 export function MainTogl(){
    const [hover, setHover] = React.useState(false);

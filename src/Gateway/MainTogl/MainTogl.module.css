@@ -1,9 +1,9 @@
 
 .red{
-	width: 310px;
-	height:  310px;
+	width: 600px;
+	height:  550px;
 	border-radius: 200px;
-	margin: 120px 10px 0px 450px;
+	margin: -10px 10px 0px 630px;
 
 }
 
@@ -12,12 +12,4 @@
 }
 .unit1{
 	width:  1000px;
-}
-.unit2{
-	margin: 65px 0px 0px 35px;
-	border-radius: 10px;
-	background-image: url("../../DuoSide/SideCont/second.jpg");
-}
-.unit3{
-	
 }
