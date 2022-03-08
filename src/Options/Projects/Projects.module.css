@@ -1,7 +1,8 @@
 .store{
 	display:  flex;
-	left: 600px;
 	position:  relative;
+	left: 450px;
+	top:  40px;
 	width: 400px;
 	height: 500px;
 }
@@ -10,4 +11,8 @@
 	width: 100px;
 	height: 100px;
 	background-color:  white;
+}
+.text{
+	position:  relative;
+	top: 200px;
 }
