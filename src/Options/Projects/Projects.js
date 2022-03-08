@@ -9,7 +9,7 @@ export function Projects(){
 }
  function Project1(){
  	const [useRef, open] = useEff();
- 	return <div ref={useRef}>{open?<h1>dick</h1>: 'dick'}</div>
+ 	return <div ref={useRef}>{!open?<h1>dick</h1>: 'dick'}</div>
  }
  function Project2(){
  	const [useRef, open] = useEff();
