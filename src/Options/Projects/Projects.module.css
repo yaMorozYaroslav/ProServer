@@ -1,0 +1,13 @@
+.store{
+	display:  flex;
+	left: 600px;
+	position:  relative;
+	width: 400px;
+	height: 500px;
+}
+.unit{
+	margin: 5px;
+	width: 100px;
+	height: 100px;
+	background-color:  white;
+}

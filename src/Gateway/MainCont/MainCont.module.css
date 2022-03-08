@@ -3,14 +3,10 @@
   justify-content:  center;
 }
 .welcome{
-  font-size: 90px;
+  position: relative;
+  top: 50px;
+  left: 600px;
+  font-size: 100px;
   color: white;
   margin-left: 20px;
-}
-.contwelc{
-  margin:150px 10px 10px 600px;
-  width: 400px;
-  height: 120px;
-  opacity: .8;
-  background-color:  black;
 }
