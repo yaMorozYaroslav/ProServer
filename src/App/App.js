@@ -3,6 +3,7 @@ import styles from './App.module.css';
 
 import {DuoHead} from'../HeadFoot/DuoHead/DuoHead';
 import {MainTogl} from '../Gateway/MainTogl/MainTogl';
+import Ap from '../storage/conText/app';
 
 
 export function App(){
@@ -15,7 +16,8 @@ export function App(){
   <MainTogl/>
         <div className={styles.push}></div>
     </div>
-
+   
+   <Ap/>
  
     </div>
     )
