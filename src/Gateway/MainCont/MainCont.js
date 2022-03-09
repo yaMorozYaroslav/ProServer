@@ -7,6 +7,8 @@ import {Profile} from "../../Options/Profile/Profile";
 import {Projects} from "../../Options/Projects/Projects";
 import {Layout} from "../../Options/Layout/Layout";
 import {Home} from "../../Options/Intro/Intro";
+import {Heroku} from "../../Options/Projects/ExtraSrc/Heroku";
+import {GitHub} from "../../Options/Projects/ExtraSrc/GitHub";
 
 export const MainCont = () => {
   const [open, setOpen] = React.useState(false);
@@ -27,6 +29,8 @@ export const MainCont = () => {
             <Route path="projects" element={<Projects/>}/>
             <Route path="contacts" element={<Contacts/>}/>
           </Route>
+          <Route path="heroku" element={<Heroku/>}/>
+          <Route path="github" element={<GitHub/>}/>
        </Routes>
       </BrowserRouter>
       )
