@@ -1,4 +1,5 @@
 import {ThemeContext} from './theme-context';
+import React from 'react';
 
 class ThemedButton extends React.Component{
 	render(){
@@ -7,7 +8,8 @@ class ThemedButton extends React.Component{
 	  return(
 	  	<button
 	  	    {...props}
-	  	    style={{backgroundColor: theme.background}}/>
+	  	    style={{backgroundColor: theme.background,
+	  	            color: theme.color}}>but</button>
 	  	    );
 	       }
          }

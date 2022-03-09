@@ -3,22 +3,12 @@ import styles from './App.module.css';
 
 import {DuoHead} from'../HeadFoot/DuoHead/DuoHead';
 import {MainTogl} from '../Gateway/MainTogl/MainTogl';
-import Ap from '../storage/conText/app';
-
 
 export function App(){
   return(
-
-    <div className={styles.body}>
-
-      <div className={styles.wrapper}>
+     <div className={styles.body}>
   <DuoHead />
-  <MainTogl/>
-        <div className={styles.push}></div>
-    </div>
-   
-   <Ap/>
- 
+  <MainTogl/>   
     </div>
     )
   }

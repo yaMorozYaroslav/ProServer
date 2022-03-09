@@ -1,3 +1,4 @@
+import React from 'react';
 import {ThemeContext, themes} from './theme-context';
 import ThemedButton from './themed-button';
 
@@ -24,14 +25,14 @@ export default class Ap extends React.Component{
   }
 render(){
 	return(
-   <Page>
+   <div>
      <ThemeContext.Provider value={this.state.theme}>
         <Toolbar changeTheme={this.toggleTheme} />
      </ThemeContext.Provider>
-      <Section>
+      <div>
          <ThemedButton />
-      </Section>
-   </Page>
+      </div>
+   </div>
   );
  }
 }

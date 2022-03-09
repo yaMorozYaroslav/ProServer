@@ -1,16 +1,21 @@
 .store{
 	display:  flex;
 	position:  relative;
-	left: 450px;
+	left: 300px;
 	top:  40px;
-	width: 400px;
+	width: 800px;
 	height: 500px;
 }
-.unit{
-	margin: 5px;
+.box{
+	margin:0px 55px 0px 55px;
 	width: 100px;
 	height: 100px;
-	background-color:  white;
+	background-color:  royalblue;
+}
+.start{
+	margin:0px 55px 0px 55px;
+	width: 100px;
+	height: 100px;
 }
 .text{
 	position:  relative;
