@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import styles from './Projects.module.css';
 import {useEff} from './useEff';
-import start from './start.png';
+import stark from './stark.png';
 
 export function Projects(){
  return (<div className={styles.store}>
@@ -12,23 +12,30 @@ export function Projects(){
 }
  function Project1(){
  	const [useRef, open] = useEff();
- 	return <div 
+ 	return <div className={styles.target}
               ref={useRef}>
              {!open
-              ? <h1 className={styles.box}>dick</h1>
-              : <img className={styles.start} src={start}/>}</div>
+              ? <div className={styles.box}>dick</div>
+              : <div className={styles.sources}><button>Heroku</button>
+                                                
+                                                <a href="https://github.com/yaMorozYaroslav/MERNAuth">href</a></div>
+
+                
+
+       }</div>
  }
  function Project2(){
  	const [useRef, open] = useEff();
- 	return <div className={styles.box} ref={useRef}>
+ 	return <div className={styles.target} 
+                   ref={useRef}>
           {!open
-              ? <h1 className={styles.box}>dick</h1>
-              : <img className={styles.start} src={start}/>}</div>
+              ? <div className={styles.box}>dick</div>
+              : <img className={styles.stark} src={stark}/>}</div>
  }
   function Project3(){
  	const [useRef, open] =  useEff();
- 	return <div className={styles.box} ref={useRef}>
-               {!open
-              ? <h1 className={styles.box}>dick</h1>
-              : <img className={styles.start} src={start}/>}</div>
+ 	return <div className={styles.target} ref={useRef}>
+              {!open
+              ? <div className={styles.box}>dick</div>
+              : <img className={styles.stark} src={stark}/>}</div>
        }
