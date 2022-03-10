@@ -8,7 +8,8 @@ export function App(){
   return(
      <div className={styles.body}>
   <DuoHead />
-  <MainTogl/>   
+  <MainTogl/>  
+
     </div>
     )
   }

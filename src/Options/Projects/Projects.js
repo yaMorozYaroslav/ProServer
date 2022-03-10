@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import styles from './Projects.module.css';
-import {useEff} from './useEff';
 import stark from './stark.png';
 import {Strings} from './Strings';
 
@@ -13,40 +12,51 @@ export function Projects(){
         </div>)
 }
  function Project1(){
- 	const [useRef, open] = useEff();
        const [text1, text2] = Strings();
- 	return <div className={styles.target}
-              ref={useRef}>
-             {!open
-              ? <div className={styles.box}>dick</div>
-              : <> 
-              <ul className={styles.linkcont}>
-                <li>
+       const [hover, handHov, handOut] = Toggler();
+ 	return ( <div className={styles.target}>
+              <ul  onMouseOver={handHov} onMouseOut={handOut} className={styles.linkcont}>
+                <li >
                 <Link className={styles.link} to="/heroku">Heroku</Link>
                 </li>
-                <li>
+                <li >
                 <Link className={styles.link} to="/github">GitHub</Link>
                 </li>
                </ul>
-               <div className={styles.text}>{text1}</div>
-                </>}
-                
-              </div>        
+               <div className={styles.text}>{hover?text1:null}</div>
+              </div>  );      
 
        
  }
  function Project2(){
- 	const [useRef, open] = useEff();
- 	return <div className={styles.target} 
-                   ref={useRef}>
-          {!open
-              ? <div className={styles.box}>dick</div>
-              : <img className={styles.stark} src={stark}/>}</div>
+       const [text1, text2] = Strings();
+ 	const [hover, handHov, handOut] = Toggler();
+   return <div className={styles.target} onMouseOver={handHov} onMouseOut={handOut}>
+                 <div>
+                 <img className={styles.stark} src={stark}/>
+                 {hover
+                  ?<div className={styles.text}>{text2}</div>
+                  :null}
+                </div>
+           }
+          </div>
  }
   function Project3(){
- 	const [useRef, open] =  useEff();
- 	return <div className={styles.target} ref={useRef}>
-              {!open
-              ? <div className={styles.box}>dick</div>
-              : <img className={styles.stark} src={stark}/>}</div>
+       const [text1, text2] = Strings();
+ 	const [hover, handHov, handOut] =  Toggler();
+ 	return <div className={styles.target} onMouseOver={handHov} onMouseOut={handOut}>
+               <div>
+                 <img className={styles.stark} src={stark}/>
+                 {hover
+                  ?<div className={styles.text}>{text2}</div>
+                  :null}
+                </div>}
+
+              </div>
        }
+ function Toggler(){
+       const [hover, setHover] = React.useState(false);
+       const handHov = () => setHover(true);
+       const handOut = () => setHover(false);
+       return [hover, handHov, handOut]
+ }
