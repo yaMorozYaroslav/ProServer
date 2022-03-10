@@ -13,17 +13,26 @@ export function Projects(){
 }
  function Project1(){
        const [text1, text2] = Strings();
+     const Heroku = () =>{
        const [hover, handHov, handOut] = Toggler();
- 	return ( <div className={styles.target}>
-              <ul  onMouseOver={handHov} onMouseOut={handOut} className={styles.linkcont}>
-                <li >
+       return (<div className={styles.linkcont} onMouseOver={handHov} onMouseOut={handOut}>
                 <Link className={styles.link} to="/heroku">Heroku</Link>
-                </li>
-                <li >
-                <Link className={styles.link} to="/github">GitHub</Link>
-                </li>
-               </ul>
-               <div className={styles.text}>{hover?text1:null}</div>
+                <div className={styles.texther}>{hover?text1:null}</div>
+               </div>
+               );
+     }
+     const GitHub = () =>{
+           const [hover, handHov, handOut] = Toggler();
+           return(<div className={styles.linkcont} onMouseOver={handHov} onMouseOut={handOut}>
+                   <Link className={styles.link} to="/github">GitHub</Link>
+                   <div className={styles.textgit}>{hover?text2:null}</div>
+                  </div>
+                );
+     }
+ 	return ( <div className={styles.target}>
+               <Heroku/>
+               <GitHub/>
+               
               </div>  );      
 
        
@@ -35,10 +44,10 @@ export function Projects(){
                  <div>
                  <img className={styles.stark} src={stark}/>
                  {hover
-                  ?<div className={styles.text}>{text2}</div>
+                  ?<div className={styles.textgit}>{text2}</div>
                   :null}
                 </div>
-           }
+           
           </div>
  }
   function Project3(){
@@ -48,9 +57,9 @@ export function Projects(){
                <div>
                  <img className={styles.stark} src={stark}/>
                  {hover
-                  ?<div className={styles.text}>{text2}</div>
+                  ?<div className={styles.textgit}>{text2}</div>
                   :null}
-                </div>}
+                </div>
 
               </div>
        }

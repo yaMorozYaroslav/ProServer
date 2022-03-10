@@ -1,48 +1,51 @@
 .store{
 	display:  flex;
-	position:  relative;
-	left: 100px;
-	top:  40px;
+	margin:70px 0px 0px 120px;
 	width: 800px;
-	height: 200px;
-}
-.box{
-	margin:0px 80px 0px 80px;
-	width: 100px;
 	height: 100px;
-	border-radius: 10px;
-	background-color:  cornflowerblue;
 }
 .target{
-	margin:0px 80px 0px 80px;
+	margin:-40px 80px 0px 80px;
 	height: 100px;
 	width: 100px;
-}
-.stark{
-	margin:-10px 70px 0px 70px;
-	width: 120px;
-	height: 120px;
-	cursor:  pointer;
 }
 .linkcont{
-    margin:0px 80px 0px 20px;
-	height: 100px;
-	width: 100px;
+    margin:-5px 80px 0px 80px;
+	height: 50px;
+	width: 50px;
 }
 .link{
 	font-size: 40px;
     color: white;
     text-decoration: none;
     background: black;
-    margin: 10px;
+    margin: 0px;
     border-radius: 5px;
 }
 .link:hover{
 	color: black;
 	background: white;
 }
-.text{
+.texther{
 	position:  relative;
 	top: 200px;
+	width: 200px;
 	background-color: white;
+}
+.textgit{
+	position:  relative;
+	top: 155px;
+	width: 200px;
+	background-color: white;
+}
+.stark{
+	margin:-10px 70px 0px 70px;
+	width: 100px;
+	height: 100px;
+	cursor:  pointer;
+}
+.stark:hover{
+	margin:-15px 60px 0px 60px;
+	width: 120px;
+	height: 120px;
 }
