@@ -38,28 +38,23 @@ export function Projects(){
        
  }
  function Project2(){
-       const [text1, text2] = Strings();
+       const [text1, text2, text3] = Strings();
  	const [hover, handHov, handOut] = Toggler();
-   return <div className={styles.target} onMouseOver={handHov} onMouseOut={handOut}>
-                 <div>
-                 <img className={styles.stark} src={stark}/>
+   return <div className={styles.target} >
+                 <img onMouseOver={handHov} onMouseOut={handOut} className={styles.stark} src={stark}/>
                  {hover
-                  ?<div className={styles.textgit}>{text2}</div>
+                  ?<div className={styles.text}>{text3}</div>
                   :null}
-                </div>
-           
           </div>
  }
   function Project3(){
-       const [text1, text2] = Strings();
+       const [text1, text2, text3] = Strings();
  	const [hover, handHov, handOut] =  Toggler();
- 	return <div className={styles.target} onMouseOver={handHov} onMouseOut={handOut}>
-               <div>
-                 <img className={styles.stark} src={stark}/>
+ 	return <div className={styles.target} >
+                 <img onMouseOver={handHov} onMouseOut={handOut} className={styles.stark} src={stark}/>
                  {hover
-                  ?<div className={styles.textgit}>{text2}</div>
+                  ?<div className={styles.text}>{text3}</div>
                   :null}
-                </div>
 
               </div>
        }
