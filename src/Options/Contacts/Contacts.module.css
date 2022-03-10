@@ -3,5 +3,21 @@
 	margin:70px 0px 0px 180px;
 	color: white;
 	text-align: center;
-	font-size: 15px;
+}
+.label{
+	font-size: 34px;
+	margin: 0px 0px 0px 100px;
+	width: 300px;
+	background: dodgerblue;
+	border-radius: 5px;
+}
+.discr{
+	font-size: 24px;
+	margin: 10px 0px 10px 200px;
+	background: black;
+	border-radius: 10px;
+}
+.discr:hover{
+	font-size: 28px;
+	margin: 8px 0px 8px 200px;
 }
