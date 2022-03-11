@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 .container{
 	display: flex;
 	color: white;
@@ -11,8 +11,8 @@ height: 400px;
 margin: -60px 0px 0px 30px;
 }
 .text{
-
+font-size:  20px;
 width: 700px;
 margin: -60px 0px 0px 30px;
-font-family: 'Hi Melody', cursive;
+font-family: 'Playfair Display', serif;
 }
