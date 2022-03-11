@@ -13,7 +13,7 @@ export function DuoHead(){
   <TwinHead
     one ={<div className={styles.head}>
            <div className={styles.block}>
-           <h1 >Development</h1>
+           <h1 className={styles.text}>Development</h1>
            <i className="fa fa-gear fa-3x"></i>
          </div>
         </div>}

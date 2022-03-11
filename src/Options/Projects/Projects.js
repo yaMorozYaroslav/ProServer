@@ -58,6 +58,7 @@ export function Projects(){
 
               </div>
        }
+ 
  function Toggler(){
        const [hover, setHover] = React.useState(false);
        const handHov = () => setHover(true);

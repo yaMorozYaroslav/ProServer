@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 .mainCont{
   display: flex;
   justify-content:  center;
 }
 .welcome{
+  font-family: 'Cinzel Decorative', cursive;
   position: relative;
-  top: 50px;
-  left: 600px;
-  font-size: 100px;
+  top: 90px;
+  left: 525px;
+  font-size: 90px;
   color: white;
   margin-left: 20px;
 }

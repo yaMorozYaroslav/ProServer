@@ -1,7 +1,14 @@
-.text{
-	width:800px;
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+.container{
+	font-family: 'Hi Melody', cursive;
+	width:620px;
 	margin:70px 0px 0px 180px;
-	font-size: 48px;
+	font-size: 55px;
 	color: white;
 	text-align: center;
+}
+.text{
+	position:  relative;
+	top: -30px;
+	left: 100px;
 }

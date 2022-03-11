@@ -34,6 +34,7 @@
 	font-size: 22px;
 	background-color: white;
 	border-radius: 3px;
+	text-align:  center;
 }
 .textgit{
 	position:  relative;
@@ -43,6 +44,7 @@
 	font-size: 22px;
 	background-color: white;
 	border-radius: 3px;
+	text-align:  center;
 }
 .text{
 	position:  relative;
@@ -52,6 +54,7 @@
 	font-size: 25px;
 	background-color: white;
 	border-radius: 3px;
+	text-align:  center;
 }
 .stark{
 	margin:-10px 70px 0px 70px;

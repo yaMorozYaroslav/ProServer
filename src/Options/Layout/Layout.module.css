@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
 .div{
 	display:flex;
 	margin: 10px 10px 10px 170px;
@@ -29,6 +30,7 @@
 }
 .current{
 	font-size: 30px;
+	font-family: 'Hi Melody', cursive;
 	color:  white;
 	font-family: Italy, cursive;
 	text-decoration: none;
@@ -50,7 +52,7 @@
 .layout{
 	width: 850px;
 	height: 500px;
-	opacity: 0.7;
+	opacity: 0.8;
 	border-radius: 10px;
 	background-color: black;
 	position:  relative;

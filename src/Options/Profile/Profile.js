@@ -1,7 +1,9 @@
 import React from 'react';
 import styles from './Profile.module.css';
+import photo from './Yaroslav.jpg';
 export const Profile = () => {
-	return <h1 className={styles.profile}>I am a self-taught NodeJS developer who learns the
+	return( <div  className={styles.container}> <img className={styles.photo} src={photo}/>
+		<h1 className={styles.text}>I am a self-taught NodeJS developer who learns the
 	 entire stack to understand the overall
 	 development process. The ability to use JS for both the 
 	 backend and the frontend inspires me to do this, because I 
@@ -11,4 +13,6 @@ export const Profile = () => {
 	 applications. It is a long way, but why not if there
 	 is a lifetime. Waiting for new acquaintances and profitable
 	  offers.</h1>
+
+	  </div>);
 }

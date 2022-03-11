@@ -1,7 +1,18 @@
-.profile{
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+.container{
+	display: flex;
 	color: white;
 	margin:70px 0px 0px 180px;
-	width: 800px;
-	text-align: center;
-	margin-left: 200px;
+	text-align: center;;
+}
+.photo{
+width: 200px;
+height: 400px;
+margin: -60px 0px 0px 30px;
+}
+.text{
+
+width: 700px;
+margin: -60px 0px 0px 30px;
+font-family: 'Hi Melody', cursive;
 }
