@@ -58,12 +58,12 @@
 }
 .stark{
 	margin:-10px 70px 0px 70px;
-	width: 100px;
-	height: 100px;
+	width: 130px;
+	height: 130px;
 	cursor:  pointer;
 }
 .stark:hover{
 	margin:-15px 60px 0px 60px;
-	width: 120px;
-	height: 120px;
+	width: 150px;
+	height: 150px;
 }

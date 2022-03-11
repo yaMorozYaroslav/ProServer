@@ -2,7 +2,9 @@ import React from 'react';
 import styles from './Profile.module.css';
 import photo from './Yaroslav.jpg';
 export const Profile = () => {
-	return( <div  className={styles.container}> <img className={styles.photo} src={photo}/>
+	return( <div  className={styles.container}>
+     <div className={styles.wrapper}>
+	 <img className={styles.photo} src={photo}/></div>
 		<h1 className={styles.text}>I am a self-taught NodeJS developer who learns the
 	 entire stack to understand the overall
 	 development process. The ability to use JS for both the 

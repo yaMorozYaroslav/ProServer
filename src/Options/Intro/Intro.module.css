@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');.container{
-
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+.container{
 	font-family: 'Sawarabi Mincho', serif;
-	width:700px;
-	margin:70px 0px 0px 145px;
-	font-size: 42px;
+	margin:70px 0px 0px 150px;
+	font-size: 45px;
 	color: white;
 	text-align: center;
 }
 .text{
 	position:  relative;
-	top: -20px;
+	width: 700px;
+	top: -30px;
 	left: 100px;
 }
