@@ -1,4 +1,3 @@
-import React from 'react';
 
 export function Strings(){
 	const text1 = "My very first full stack project. Here is MERN Authorization. After registration you can add a note directly to the database.";

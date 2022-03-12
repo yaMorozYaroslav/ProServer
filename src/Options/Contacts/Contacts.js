@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Contacts.module.css';
+import element from './element.png';
 export function Contacts(){
 	const Number = () =>{
 		return (<><h1 className={styles.label}>Number</h1>
@@ -16,14 +17,22 @@ export function Contacts(){
 
     const GitHub = () =>{
     	return (<><h1 className={styles.label}>GitHub</h1>
-    	          <p className={styles.discr}>github.com/yaMorozYaroslav</p></>)};
- 
+    	          <p className={styles.dicr}>github.com/yaMorozYaroslav</p></>)};
+    const City = () =>{
+  return <h1 className={styles.city}>Szczecin, Poland 2022</h1>
+    }
+    const Element = () => {
+    	return <img src={element} alt="some"
+    	        className={styles.element}/>
+    }
 
  return(<div className={styles.can}>
                                <Number/>
                                <Email/>
                                <LinkedIn/>
                                <GitHub/>
+                               <City/>
+                        <Element/>
 
         </div>)
 }
