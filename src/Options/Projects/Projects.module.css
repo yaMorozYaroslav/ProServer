@@ -41,9 +41,9 @@
 .texther{
 	position:  relative;
 	top: 120px;
-	left: -40px;
-	width: 200px;
-	font-size: 22px;
+	left: -44px;
+	width: 220px;
+	font-size: 23px;
 	background-color: white;
 	border-radius: 3px;
 	text-align:  center;
@@ -51,9 +51,9 @@
 .textgit{
 	position:  relative;
 	top: 80px;
-	left: -40px;
-	width: 200px;
-	font-size: 22px;
+	left: -44px;
+	width: 220px;
+	font-size: 24px;
 	background-color: white;
 	border-radius: 3px;
 	text-align:  center;
@@ -75,7 +75,7 @@
 	cursor:  pointer;
 }
 .stark:hover{
-	margin:-17px 55px 0px 60px;
+	margin:-17px 55px 0px 65px;
 	width: 140px;
 	height: 140px;
 }
