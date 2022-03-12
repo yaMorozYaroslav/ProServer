@@ -11,19 +11,30 @@
 }
 .linkcont{
     margin:-5px 80px 0px 80px;
-	height: 50px;
-	width: 50px;
+    width: 50px;
+    height: 50px;
 }
-.link{
-	font-size: 40px;
+.linkher{
+	font-size: 42px;
+	position: relative;
+    color: white;
+    text-decoration: none;
+    background: dodgerblue;
+    border: 2px solid white;
+    border-radius: 5px;
+    top:  5px;
+}
+.linkgit{
+	font-size: 42px;
 	position: relative;
     color: white;
     text-decoration: none;
     background: dodgerblue;
     border-radius: 5px;
-    top:  5px;
+    border: 2px solid white;
+    top:  15px;
 }
-.link:hover{
+.linkgit:hover, .linkher:hover{
 	color: black;
 	background: white;
 }
@@ -50,7 +61,7 @@
 .text{
 	position:  relative;
 	top: 80px;
-	left: 30px;
+	left: 42px;
 	width: 180px;
 	font-size: 25px;
 	background-color: white;
@@ -64,7 +75,7 @@
 	cursor:  pointer;
 }
 .stark:hover{
-	margin:-15px 60px 0px 60px;
-	width: 150px;
-	height: 150px;
+	margin:-17px 55px 0px 60px;
+	width: 140px;
+	height: 140px;
 }

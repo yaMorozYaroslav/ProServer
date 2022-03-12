@@ -16,7 +16,7 @@ export function Projects(){
      const Heroku = () =>{
        const [hover, handHov, handOut] = Toggler();
        return (<div className={styles.linkcont} onMouseOver={handHov} onMouseOut={handOut}>
-                <Link className={styles.link} to="/heroku">Heroku</Link>
+                <Link className={styles.linkher} to="/heroku">Heroku</Link>
                 <div className={styles.texther}>{hover?text1:null}</div>
                </div>
                );
@@ -24,7 +24,7 @@ export function Projects(){
      const GitHub = () =>{
            const [hover, handHov, handOut] = Toggler();
            return(<div className={styles.linkcont} onMouseOver={handHov} onMouseOut={handOut}>
-                   <Link className={styles.link} to="/github">GitHub</Link>
+                   <Link className={styles.linkgit} to="/github">GitHub</Link>
                    <div className={styles.textgit}>{hover?text2:null}</div>
                   </div>
                 );

@@ -34,7 +34,6 @@
 	color:  white;
 	font-family: 'Playfair Display', serif;
 	text-decoration: none;
-	
 }
 .murrent{
 	font-size: 30px;
@@ -42,6 +41,9 @@
 	font-family: Italy;
 	text-decoration:  none;
 
+}
+.murrent:hover{
+	font-size: 32px;
 }
 .outlet{
 	width: 1000px;
