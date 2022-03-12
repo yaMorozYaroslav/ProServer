@@ -3,13 +3,15 @@ import {Link} from 'react-router-dom';
 import styles from './Projects.module.css';
 import stark from './stark.png';
 import {Strings} from './Strings';
+import schema from "./schema.png";
 
 export function Projects(){
- return (<div className={styles.store}>
+ return (<><div className={styles.store}>
  <Project1/>
  <Project2/>
  <Project3/>
-        </div>)
+        </div>
+ <img src={schema} alt="schema" className={styles.schema}/></>)
 }
  function Project1(){
        const [text1, text2] = Strings();

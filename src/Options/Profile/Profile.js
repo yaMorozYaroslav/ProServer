@@ -1,8 +1,9 @@
 import React from 'react';
 import styles from './Profile.module.css';
 import photo from './Yaroslav.jpg';
+import gear from './gear.png';
 export const Profile = () => {
-	return( <div  className={styles.container}>
+	return( <><div  className={styles.container}>
      <div className={styles.wrapper}>
 	 <img className={styles.photo} src={photo} alt="yaro"/></div>
 	    <div className={styles.name}><h1>Jaroslav Moroz, 23 years old</h1></div>
@@ -17,5 +18,6 @@ export const Profile = () => {
 	 is a lifetime. Waiting for new acquaintances and profitable
 	  offers.</h5>
 
-	  </div>);
+	  </div>
+	  <img src={gear} alt="gear" className={styles.gear}/></>);
 }

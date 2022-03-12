@@ -1,5 +1,5 @@
 .body{
-	height: 680px;
+	height: 1000px;
 	margin: 0;
 	background-image: url("tech.jpg");
 }
@@ -7,3 +7,8 @@
 	
 }
 .footer, .push {height: 50px;}
+@media screen and (max-width: 300px){
+	.body{
+		width: 900px
+	}
+}
