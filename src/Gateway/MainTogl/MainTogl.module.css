@@ -13,3 +13,29 @@
 .unit1{
 	width: 1000px;
 }
+@media only screen and (max-width: 1200px){
+  .red{
+	width: 600px;
+	height:  500px;
+	margin: 50px 10px 0px 350px;
+	}
+
+}
+
+@media only screen and (max-width: 900px){
+  .red{
+	width: 300px;
+	height:  400px;
+	margin: 0px 10px 0px 30px;
+	}
+}
+@media only screen and (max-width: 400px){
+ .red{
+	width:300px;
+	height: 350px;
+	margin: 100px 10px 0px 20px;
+	}
+ .unit1{
+	width:  400px;
+}
+}

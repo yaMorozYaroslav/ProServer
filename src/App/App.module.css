@@ -7,16 +7,16 @@
 	
 }
 .footer, .push {height: 50px;}
-@media screen and (max-width: 900px){
+@media only screen and (max-width: 900px){
 	.body{
 		width: 1200px;
 		height: 1500px;
 	}
 }
-@media screen and (max-width: 400px){
+@media only screen and (max-width: 400px){
 	.body{
-		width: 1000px;
-		height: 2000px;
+		width: 400px;
+		height: 800px;
 
 	}
 }

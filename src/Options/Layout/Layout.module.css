@@ -62,5 +62,34 @@
 	left: 170px;
     z-index:  1;
 }
-
+@media only screen and (max-width: 400px){
+	.div{
+		margin:0px 10px 10px 0px;
+		width: 300px;
+	}
+.outlet{
+	width: 200px;
+}
+.layout{
+	width: 100%;
+	left: 0px;
+}
+.but{
+	width: 72px;
+	height: 40px;
+	margin: 5px 0px 0px 0px;
+}
+.bud{
+	width: 72px;
+	height: 40px;
+   margin: 5px 0px 0px 0px;
+}
+.current{
+	font-size: 11px;
+	
+}
+.murrent{
+	font-size: 10px;
+}
+}
 
