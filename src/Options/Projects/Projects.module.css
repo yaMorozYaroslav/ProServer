@@ -64,7 +64,7 @@
 .text{
 	position:  relative;
 	top: 80px;
-	left: 42px;
+	left: -20px;
 	width: 180px;
 	font-size: 25px;
 	background-color: white;
