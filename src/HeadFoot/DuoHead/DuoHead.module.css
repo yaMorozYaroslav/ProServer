@@ -26,7 +26,7 @@
 	font-size: 25px;
 	margin: 0px 0px 0px -70px;
 	background-image: url("./net.jpg");
-	width:  730px;
+	width:  720px;
 	height: 90px;
 	border-radius: 0px;
 }
@@ -35,6 +35,7 @@
 	font-size: 20px;
 	margin: 0px 0px 0px 159px;
 	width: 240px;
+	height: 70px;
 }
 .nohead{
 	display:  none;

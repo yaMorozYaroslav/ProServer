@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import styles from './Projects.module.css';
 import stark from './stark.png';
@@ -7,17 +7,17 @@ import schema from "./schema.png";
 
 export function Projects(){
  return (<><div className={styles.store}>
- <div><Project1/></div>
- <div><Project2/></div>
- <div><Project3/></div>
+ <Project1/>
+ <Project2/>
+ <Project3/>
         </div>
- <img src={schema} alt="schema" className={styles.schema}/></>)
+ <img src={schema} alt="strip" className={styles.schema}/></>)
 }
  function Project1(){
        const [text1, text2] = Strings();
      const Heroku = () =>{
        const [hover, handHov, handOut] = Toggler();
-       return (<div className={styles.linkcont} onMouseOver={handHov} onMouseOut={handOut}>
+       return (<div className={styles.linkcont1} onMouseOver={handHov} onMouseOut={handOut}>
                 <Link className={styles.linkher} to="/heroku">Heroku</Link>
                 <div className={styles.texther}>{hover?text1:null}</div>
                </div>
@@ -25,7 +25,7 @@ export function Projects(){
      }
      const GitHub = () =>{
            const [hover, handHov, handOut] = Toggler();
-           return(<div className={styles.linkcont} onMouseOver={handHov} onMouseOut={handOut}>
+           return(<div className={styles.linkcont2} onMouseOver={handHov} onMouseOut={handOut}>
                    <Link className={styles.linkgit} to="/github">GitHub</Link>
                    <div className={styles.textgit}>{hover?text2:null}</div>
                   </div>

@@ -43,3 +43,50 @@
 	top: -170px;
 	left: 580px;
 }
+@media only screen and (max-width: 400px){
+	.can{
+	width:400px;
+	margin:70px 0px 0px -90px;
+	
+}
+.city{
+	position:  relative;
+	top: -390px;
+	left: 120px;
+	font-size: 25px;
+}
+.label{
+	font-size: 25px;
+	margin: 0px 0px 0px 90px;
+	width: 200px;
+	background: dodgerblue;
+	border-radius: 5px;
+}
+.discr{
+	font-size: 21px;
+	margin: 10px 0px 10px 120px;
+	background: none;
+	
+}
+.dicr{
+	font-size: 21px;
+	margin: 10px 0px 10px 120px;
+	background: none;
+	
+	
+}
+.discr:hover{
+	font-size: 22px;
+	margin: 8px 0px 10px 160px;
+}
+.dicr:hover{
+	font-size: 22px;
+	margin: 10px 0px 10px 160px;
+}
+.element{
+	position:  relative;
+	width: 470px;
+	top: -200px;
+	left: 30px;
+}
+}
