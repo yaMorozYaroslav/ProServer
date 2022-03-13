@@ -9,7 +9,6 @@ export function App(){
      <div className={styles.body}>
   <DuoHead />
   <MainTogl/>  
-
     </div>
     )
   }

@@ -3,10 +3,10 @@
 	font-family: 'Sorts Mill Goudy', serif;
 	font-size: 27px;
 	display:flex;
-  width: 500px;
+  width: 680px;
   height: 90px;
   justify-content: center;
-  margin: 0px 0px 0px 105px;
+  margin: 0px 0px 0px 5px;
   background-image: url("./mesk.jpg");
   border-radius: 0px;
 }
@@ -24,7 +24,7 @@
 }
 .nohead{
 	font-size: 25px;
-	margin: 0px 0px 0px 0px;
+	margin: 0px 0px 0px -70px;
 	background-image: url("./net.jpg");
 	width:  730px;
 	height: 90px;

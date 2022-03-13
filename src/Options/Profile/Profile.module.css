@@ -49,13 +49,13 @@ font-family: 'Playfair Display', serif;
      height: 200px;
 	}
 	.name{
-		font-size: 6px;
+		font-size: 11px;
 		left:  -10px;
-		width: 270px;
+		width: 340px;
 	}
 	.text{
 		margin: -50px 0px 0px 5px;
-		font-size: 10px;
-		width: 260px;
+		font-size: 16px;
+		width: 340px;
 	}
 }
