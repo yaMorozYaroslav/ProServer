@@ -11,3 +11,9 @@
 	width: 260px;
 	height: 260px;
 }
+@media only screen and (max-width: 400px){
+	.foot{
+		left: -330px;
+
+	}
+}

@@ -7,9 +7,9 @@ import schema from "./schema.png";
 
 export function Projects(){
  return (<><div className={styles.store}>
- <Project1/>
- <Project2/>
- <Project3/>
+ <div><Project1/></div>
+ <div><Project2/></div>
+ <div><Project3/></div>
         </div>
  <img src={schema} alt="schema" className={styles.schema}/></>)
 }
