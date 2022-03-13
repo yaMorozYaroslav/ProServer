@@ -6,5 +6,7 @@
 	background-image: url("../../DuoSide/SideCont/second.jpg");
 }
 @media only screen and (max-width: 400px){
-	.picture{display:  none}
+	.picture{
+		margin: -100px 0px 0px -105px;
+	}
 }

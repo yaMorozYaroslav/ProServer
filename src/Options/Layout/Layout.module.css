@@ -65,31 +65,29 @@
 @media only screen and (max-width: 400px){
 	.div{
 		margin:0px 10px 10px 0px;
-		width: 300px;
+		width: 400px;
 	}
-.outlet{
-	width: 200px;
-}
+
 .layout{
 	width: 100%;
 	left: 0px;
 }
 .but{
-	width: 72px;
+	width: 80px;
 	height: 40px;
-	margin: 5px 0px 0px 0px;
+	margin: 5px 0px 0px 5px;
 }
 .bud{
-	width: 72px;
+	width: 80px;
 	height: 40px;
-   margin: 5px 0px 0px 0px;
+   margin: 5px 0px 0px 5px;
 }
 .current{
-	font-size: 11px;
+	font-size: 12px;
 	
 }
 .murrent{
-	font-size: 10px;
+	font-size: 12px;
 }
 }
 
