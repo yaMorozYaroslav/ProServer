@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import styles from './Projects.module.css';
 import stark from './stark.png';
-import {Strings} from './Strings';
+import * as strings from './strings';
 import schema from "./schema.png";
 
 export function Projects(){
@@ -14,20 +14,22 @@ export function Projects(){
  <img src={schema} alt="strip" className={styles.schema}/></>)
 }
  function Project1(){
-       const [text1, text2] = Strings();
      const Heroku = () =>{
        const [hover, handHov, handOut] = Toggler();
        return (<div className={styles.linkcont1} onMouseOver={handHov} onMouseOut={handOut}>
                 <Link className={styles.linkher} to="/heroku">Heroku</Link>
-                <div className={styles.texther}>{hover?text1:null}</div>
+                <div className={styles.texther}>{hover?strings.text1:null}</div>
                </div>
                );
      }
      const GitHub = () =>{
            const [hover, handHov, handOut] = Toggler();
-           return(<div className={styles.linkcont2} onMouseOver={handHov} onMouseOut={handOut}>
-                   <Link className={styles.linkgit} to="/github">GitHub</Link>
-                   <div className={styles.textgit}>{hover?text2:null}</div>
+           return(<div 
+                    className={styles.linkcont2} 
+                    onMouseOver={handHov} 
+                    onMouseOut={handOut}>
+                     <Link className={styles.linkgit} to="/github">GitHub</Link>
+                     <section className={styles.textgit}>{hover?strings.text2:null}</section>
                   </div>
                 );
      }
@@ -40,22 +42,20 @@ export function Projects(){
        
  }
  function Project2(){
-       const [text1, text2, text3] = Strings();
  	const [hover, handHov, handOut] = Toggler();
    return <div className={styles.target} >
                  <img onMouseOver={handHov} onMouseOut={handOut} className={styles.stark} src={stark}/>
                  {hover
-                  ?<div className={styles.text}>{text3}</div>
+                  ?<div className={styles.text}>{strings.text3}</div>
                   :null}
           </div>
  }
   function Project3(){
-       const [text1, text2, text3] = Strings();
  	const [hover, handHov, handOut] =  Toggler();
  	return <div className={styles.target} >
                  <img onMouseOver={handHov} onMouseOut={handOut} className={styles.stark} src={stark}/>
                  {hover
-                  ?<div className={styles.text}>{text3}</div>
+                  ?<div className={styles.text}>{strings.text3}</div>
                   :null}
 
               </div>
