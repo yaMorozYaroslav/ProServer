@@ -3,23 +3,22 @@
 	margin:70px 0px 0px 120px;
 }
 .target{
-	margin:-40px 110px 0px 90px;
+	margin:0px 110px 0px 90px;
 	height: 110px;
 	width: 110px;
 }
 .linkcont1{
-    margin:5px 80px 0px 55px;
+    margin:0px 80px 0px 55px;
     width: 50px;
     height: 50px;
 }
 .linkcont2{
-    margin:-5px 80px 0px 55px;
+    margin:0px 80px 0px 55px;
     width: 50px;
     height: 50px;
 }
 .linkher{
-	font-size: 42px;
-	position: relative;
+	font-size: 44px;
     color: white;
     text-decoration: none;
     background: dodgerblue;
@@ -29,13 +28,12 @@
 }
 .linkgit{
 	font-size: 42px;
-	position: relative;
     color: white;
     text-decoration: none;
     background: dodgerblue;
     border-radius: 5px;
     border: 2px solid white;
-    top:  15px;
+    
 }
 .linkgit:hover, .linkher:hover{
 	color: black;
@@ -43,28 +41,28 @@
 }
 .texther{
 	position:  relative;
-	top: 120px;
-	left: -44px;
+	top: 70px;
+	right: 45px;
 	width: 220px;
 	font-size: 23px;
 	background-color: white;
 	border-radius: 3px;
 	text-align:  center;
+	z-index: 1;
 }
 .textgit{
-	position:  relative;
-	top: 80px;
-	left: -44px;
+	position: relative;
+	top: 20px;
+	right: 45px;
 	width: 220px;
 	font-size: 24px;
 	background-color: white;
 	border-radius: 3px;
 	text-align:  center;
+	z-index: 1;
 }
 .text{
-	position:  relative;
-	top: 80px;
-	left: -20px;
+	margin: 100px 20px 0px 0px;
 	width: 180px;
 	font-size: 25px;
 	background-color: white;
@@ -72,7 +70,7 @@
 	text-align:  center;
 }
 .stark{
-	
+	position:  relative;
 	width: 130px;
 	height: 130px;
 	cursor:  pointer;

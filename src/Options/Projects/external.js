@@ -14,3 +14,10 @@ export function Netlify0(){
 	}, []);
    return <></>
 }
+export const GitHub1(){
+	useEffect(()=>{
+		window.location
+		    .href="https://github.com/yaMorozYaroslav/MemoAuth"
+	})
+}
+//https://node-requests.netlify.app
