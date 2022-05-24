@@ -1,16 +1,15 @@
-import React from 'react';
-import styles from'./MainCont.module.css'; 
+import React from 'react'
+import styles from'./Router.module.css'
 import {BrowserRouter, Switch,
-                Routes, Route} from "react-router-dom";
-import {Contacts} from "../../Options/Contacts/Contacts";
-import {Profile} from "../../Options/Profile/Profile";
-import {Projects} from "../../Options/Projects/Projects";
-import {Layout} from "../../Options/Layout/Layout";
-import {Home} from "../../Options/Intro/Intro";
-import {Heroku} from "../../Options/Projects/ExtraSrc/Heroku";
-import {GitHub} from "../../Options/Projects/ExtraSrc/GitHub";
+                Routes, Route, Navigate} from "react-router-dom"
+import {Contacts} from "../../Options/Contacts/Contacts"
+import {Profile} from "../../Options/Profile/Profile"
+import {Projects} from "../../Options/Projects/Projects"
+import {Layout} from "../../Options/Layout/Layout"
+import {Home} from "../../Options/Intro/Intro"
+import {GitHub0, Netlify0} from "../../Options/Projects/external"
 
-export const MainCont = () => {
+export const Router = () => {
   const [open, setOpen] = React.useState(false);
 
   React.useEffect(()=>{
@@ -29,8 +28,8 @@ export const MainCont = () => {
             <Route path="projects" element={<Projects/>}/>
             <Route path="contacts" element={<Contacts/>}/>
           </Route>
-          <Route path="heroku" element={<Heroku/>}/>
-          <Route path="github" element={<GitHub/>}/>
+          <Route path="heroku" element={<Netlify0/>}/>
+          <Route path="github" element={<GitHub0/>}/>
        </Routes>
       </BrowserRouter>
       )
