@@ -13,7 +13,7 @@ export function Projects(){
         </div>
  <img src={schema} alt="strip" className={styles.schema}/></>)
 }
- function Project1(){
+ function Project0(){
      const Heroku = () =>{
        const [hover, handHov, handOut] = Toggler();
        return (<div className={styles.linkcont1} onMouseOver={handHov} onMouseOut={handOut}>
@@ -41,7 +41,7 @@ export function Projects(){
 
        
  }
- function Project2(){
+ function Project1(){
  	const [hover, handHov, handOut] = Toggler();
    return <div className={styles.target} >
                  <img onMouseOver={handHov} onMouseOut={handOut} className={styles.stark} src={stark}/>
@@ -50,14 +50,27 @@ export function Projects(){
                   :null}
           </div>
  }
-  function Project3(){
+  function Project2(){
  	const [hover, handHov, handOut] =  Toggler();
  	return <div className={styles.target} >
                  <img onMouseOver={handHov} onMouseOut={handOut} className={styles.stark} src={stark}/>
                  {hover
                   ?<div className={styles.text}>{strings.text3}</div>
                   :null}
-
+  function Project3(){
+    const [hover, handHov, handOut] =  Toggler();
+    return <div className={styles.target} >
+                 <img onMouseOver={handHov} onMouseOut={handOut} className={styles.stark} src={stark}/>
+                 {hover
+                  ?<div className={styles.text}>{strings.text3}</div>
+                  :null}
+  function Project4(){
+    const [hover, handHov, handOut] =  Toggler();
+    return <div className={styles.target} >
+                 <img onMouseOver={handHov} onMouseOut={handOut} className={styles.stark} src={stark}/>
+                 {hover
+                  ?<div className={styles.text}>{strings.text3}</div>
+                  :null}
               </div>
        }
  
