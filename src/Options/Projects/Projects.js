@@ -1,9 +1,9 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
-import styles from './Projects.module.css';
-import * as strings from './extra/strings';
+import React from 'react'
+import {Link} from 'react-router-dom'
+import styles from './Projects.module.css'
+import * as strings from './extra/strings'
 
-import stark from './images/stark.png';
+import stark from './images/stark.png'
 import schema from './images/schema.png'
 import atom from './images/atom.png'
 import upatom from './images/upatom.png'
