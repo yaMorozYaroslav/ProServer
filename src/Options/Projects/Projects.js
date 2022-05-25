@@ -22,7 +22,7 @@ export function Projects(){
        const [hover, handHov, handOut] = Toggler();
        return (<div className={styles.linkcont1} onMouseOver={handHov} onMouseOut={handOut}>
                 <Link className={styles.linkher} to="/netlify0" target="blank">Netlify</Link>
-                <div className={styles.texther}>{hover?strings.text1:null}</div>
+                <div className={styles.texther}>{hover?strings.text0:null}</div>
                </div>
                );
      }
@@ -49,7 +49,7 @@ export function Projects(){
  	const Netlify1 = () =>{
        const [hover, handHov, handOut] = Toggler();
        return (<div className={styles.linkcont1} onMouseOver={handHov} onMouseOut={handOut}>
-                <Link className={styles.linkher} to="/heroku" target="blank">Netlify</Link>
+                <Link className={styles.linkher} to="/netlify1" target="blank">Netlify</Link>
                 <div className={styles.texther}>{hover?strings.text1:null}</div>
                </div>
                );
@@ -60,7 +60,7 @@ export function Projects(){
                     className={styles.linkcont2} 
                     onMouseOver={handHov} 
                     onMouseOut={handOut}>
-                     <Link className={styles.linkgit} to="/github" target="blank">GitHub</Link>
+                     <Link className={styles.linkgit} to="/github1" target="blank">GitHub</Link>
                      <section className={styles.textgit}>{hover?strings.text2:null}</section>
                   </div>
                 );

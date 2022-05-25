@@ -7,7 +7,8 @@ import {Profile} from "../../Options/Profile/Profile"
 import {Projects} from "../../Options/Projects/Projects"
 import {Layout} from "../../Options/Layout/Layout"
 import {Home} from "../../Options/Intro/Intro"
-import {GitHub0, Netlify0} from "../../Options/Projects/external"
+import {GitHub0, Netlify0,
+        GitHub1, Netlify1} from "../../Options/Projects/external"
 
 export const Router = () => {
   const [open, setOpen] = React.useState(false);
@@ -28,8 +29,10 @@ export const Router = () => {
             <Route path="projects" element={<Projects/>}/>
             <Route path="contacts" element={<Contacts/>}/>
           </Route>
-          <Route path="heroku" element={<Netlify0/>}/>
-          <Route path="github" element={<GitHub0/>}/>
+          <Route path="netlify0" element={<Netlify0/>}/>
+          <Route path="github0" element={<GitHub0/>}/>
+          <Route path="netlify1" element={<Netlify1/>}/>
+          <Route path="github1" element={<GitHub1/>}/>
        </Routes>
       </BrowserRouter>
       )
