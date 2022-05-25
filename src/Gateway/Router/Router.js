@@ -7,7 +7,7 @@ import {Projects} from "../../Options/Projects/Projects"
 import {Layout} from "../../Options/Layout/Layout"
 import {Home} from "../../Options/Intro/Intro"
 import {GitHub0, Netlify0,
-        GitHub1, Netlify1} from "../../Options/Projects/external"
+        GitHub1, Netlify1} from "../../Options/Projects/extra/external"
 
 export const Router = () => {
   const [open, setOpen] = React.useState(false);

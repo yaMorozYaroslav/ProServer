@@ -1,11 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import styles from './Projects.module.css';
-import stark from './stark.png';
-import * as strings from './strings';
-import schema from "./schema.png";
-import atom from './atom.png'
-import upatom from './upatom.png'
+import * as strings from './extra/strings';
+
+import stark from './images/stark.png';
+import schema from './images/schema.png'
+import atom from './images/atom.png'
+import upatom from './images/upatom.png'
 
 export function Projects(){
  return (<><div 
@@ -24,7 +25,7 @@ export function Projects(){
      const handCov =()=> setCover(true)
      const handNo =()=> setCover(false)
      React.useEffect(()=>{
-        const time = setTimeout(()=>{handNo()},2000)
+        const time = setTimeout(()=>{handNo()},7000)
      }, [cover])
      const Netlify0 = () =>{
        const [hover, handHov, handOut] = Toggler();
@@ -50,12 +51,19 @@ export function Projects(){
                <Netlify0/>
                <GitHub0/>
               </>
-              :<img alt="stark" className={styles.stark} src={atom}/>}
+              :<img alt="stark" className={styles.atoms} src={atom}/>}
               </div>  );      
 
        
  }
  function Project1(){
+    const [cover, setCover] = React.useState(false)
+     const handCov =()=> setCover(true)
+     const handNo =()=> setCover(false)
+     React.useEffect(()=>{
+        const time = setTimeout(()=>{handNo()},7000)
+     }, [cover])
+
  	const Netlify1 = () =>{
        const [hover, handHov, handOut] = Toggler();
        return (<div className={styles.linkcont1} onMouseOver={handHov} onMouseOut={handOut}>
@@ -75,10 +83,12 @@ export function Projects(){
                   </div>
                 );
      }
-    return ( <div className={styles.target}>
+    return ( <div onMouseOver={handCov} className={styles.target}>
+              {cover?<>
                <Netlify1/>
                <GitHub1/>
-               
+              </>
+              :<img alt="stark" className={styles.atoms} src={upatom}/>}
               </div>  ); 
  }
   function Project2(){

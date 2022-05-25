@@ -80,6 +80,12 @@
 	width: 140px;
 	height: 140px;
 }
+.atoms{
+	position: relative;
+	right: 15px;
+	bottom: 25px;
+	width: 170px;
+}
 .schema{
 	width: 350px;
 	height: 220px;
