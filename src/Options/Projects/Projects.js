@@ -4,6 +4,8 @@ import styles from './Projects.module.css';
 import stark from './stark.png';
 import * as strings from './strings';
 import schema from "./schema.png";
+import atom from './atom.png'
+import upatom from './upatom.png'
 
 export function Projects(){
  return (<><div 
@@ -18,6 +20,12 @@ export function Projects(){
  <img src={schema} alt="" className={styles.schema}/></>)
 }
  function Project0(){
+     const [cover, setCover] = React.useState(false)
+     const handCov =()=> setCover(true)
+     const handNo =()=> setCover(false)
+     React.useEffect(()=>{
+        const time = setTimeout(()=>{handNo()},2000)
+     }, [cover])
      const Netlify0 = () =>{
        const [hover, handHov, handOut] = Toggler();
        return (<div className={styles.linkcont1} onMouseOver={handHov} onMouseOut={handOut}>
@@ -37,10 +45,12 @@ export function Projects(){
                   </div>
                 );
      }
- 	return ( <div className={styles.target}>
+ 	return ( <div onMouseOver={handCov} className={styles.target}>
+              {cover?<>
                <Netlify0/>
                <GitHub0/>
-               
+              </>
+              :<img alt="stark" className={styles.stark} src={atom}/>}
               </div>  );      
 
        
