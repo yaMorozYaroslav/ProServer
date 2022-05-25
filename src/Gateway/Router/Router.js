@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from'./Router.module.css'
-import {BrowserRouter, Switch,
-                Routes, Route, Navigate} from "react-router-dom"
+import {BrowserRouter, Routes, Route} from "react-router-dom"
 import {Contacts} from "../../Options/Contacts/Contacts"
 import {Profile} from "../../Options/Profile/Profile"
 import {Projects} from "../../Options/Projects/Projects"

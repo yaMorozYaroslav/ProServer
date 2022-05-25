@@ -15,7 +15,7 @@ export function Projects(){
  <Project3/>
  <Project4/>
         </div>
- <img src={schema} alt="strip" className={styles.schema}/></>)
+ <img src={schema} alt="" className={styles.schema}/></>)
 }
  function Project0(){
      const Netlify0 = () =>{
@@ -74,7 +74,7 @@ export function Projects(){
   function Project2(){
  	const [hover, handHov, handOut] =  Toggler();
  	return <div className={styles.target} >
-                 <img onMouseOver={handHov} onMouseOut={handOut} className={styles.stark} src={stark}/>
+                 <img alt="stark" onMouseOver={handHov} onMouseOut={handOut} className={styles.stark} src={stark}/>
                  {hover
                   ?<div className={styles.text}>{strings.text3}</div>
                   :null}
@@ -83,7 +83,7 @@ export function Projects(){
   function Project3(){
     const [hover, handHov, handOut] =  Toggler();
     return <div className={styles.target} >
-                 <img onMouseOver={handHov} onMouseOut={handOut} className={styles.stark} src={stark}/>
+                 <img alt="stark" onMouseOver={handHov} onMouseOut={handOut} className={styles.stark} src={stark}/>
                  {hover
                   ?<div className={styles.text}>{strings.text3}</div>
                   :null}
@@ -92,7 +92,7 @@ export function Projects(){
   function Project4(){
     const [hover, handHov, handOut] =  Toggler();
     return <div className={styles.target} >
-                 <img onMouseOver={handHov} onMouseOut={handOut} className={styles.stark} src={stark}/>
+                 <img alt="stark" onMouseOver={handHov} onMouseOut={handOut} className={styles.stark} src={stark}/>
                  {hover
                   ?<div className={styles.text}>{strings.text3}</div>
                   :null}

@@ -8,10 +8,13 @@ import img from './touch.png';
 export function MainTogl(){
    const [hover, setHover] = React.useState(false);
    const handHov = () => setHover(true);
-
+   React.useEffect(()=>{
+      const timer = setTimeout(()=>{setHover(true)},1000)
+      return()=>clearTimeout(timer)
+   }, [hover])
    return <>{!hover
              ?<div className={styles.cont} >
-             <img className={styles.red} onMouseEnter={handHov} src={img}/>
+             <img className={styles.red} onMouseEnter={handHov} alt='toggler' src={img}/>
              </div>
              :
         
