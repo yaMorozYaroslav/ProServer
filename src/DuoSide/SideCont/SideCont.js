@@ -7,7 +7,7 @@ export function SideCont(){
       setPic(true)
     }, 800)
     return()=>clearTimeout(timeout)
-  }, [])
+  }, [pic])
   if(!pic) return null 
            return <h1 className={styles.picture}> </h1>
 

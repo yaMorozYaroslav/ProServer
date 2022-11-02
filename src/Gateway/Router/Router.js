@@ -17,7 +17,7 @@ export const Router = () => {
       setOpen(true)
     }, 2700)
   return ()=>clearTimeout(timer)
-  }, [])
+  }, [open])
   if(!open) return  <h1 className={styles.welcome}>Welcome.</h1>;  
    return(
      <BrowserRouter>
