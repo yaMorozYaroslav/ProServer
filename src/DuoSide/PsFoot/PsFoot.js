@@ -12,7 +12,7 @@ export function PsFoot(){
    }, [show])
    if(!show)return null
 
-	return  <img className={styles.foot} src={pic} />
+	return  <img className={styles.foot} alt="eye" src={pic} />
           
 
       }

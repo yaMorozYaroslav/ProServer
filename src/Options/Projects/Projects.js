@@ -26,6 +26,7 @@ export function Projects(){
      const handNo =()=> setCover(false)
      React.useEffect(()=>{
         const time = setTimeout(()=>{handNo()},7000)
+        return () => {clearTimeout(time)}
      }, [cover])
      const Netlify0 = () =>{
        const [hover, handHov, handOut] = Toggler();
@@ -62,6 +63,7 @@ export function Projects(){
      const handNo =()=> setCover(false)
      React.useEffect(()=>{
         const time = setTimeout(()=>{handNo()},7000)
+        return () => { clearTimeout(time)}
      }, [cover])
 
  	const Netlify1 = () =>{
