@@ -4,9 +4,9 @@ import {createRoot} from 'react-dom/client'
 import {App} from './App/App';
 import {Provider} from 'react-redux'
 import {createStore} from 'redux'
-import {welcRed} from './Redux/welcRed'
+import reducers from './Redux/reducers/index'
 
-let store = createStore(welcRed)
+let store = createStore(reducers)
 
 const rootElement = document.getElementById('root')
 const root = createRoot(rootElement)

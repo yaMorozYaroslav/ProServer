@@ -1,5 +1,5 @@
 const initial = {messages:[1,2,3], loading:true}
-export const messRed = (state=initial, action)=> {
+const messRed = (state=initial, action)=> {
 	          switch(action.type){
 				  case 'FETCH':
 				        return {...state, messages: action.payload}
@@ -7,3 +7,4 @@ export const messRed = (state=initial, action)=> {
 				        return state
 				  }
 	}
+export default messRed

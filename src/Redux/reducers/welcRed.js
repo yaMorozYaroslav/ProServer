@@ -1,4 +1,4 @@
-export const welcRed = function (state = false, action) {
+ const welcRed = function (state = false, action) {
 	switch(action.type){
 		case 'OPENED':
 		      return (state = true) 
@@ -6,3 +6,4 @@ export const welcRed = function (state = false, action) {
 		       return state
 		       }
 		 }
+export default welcRed
