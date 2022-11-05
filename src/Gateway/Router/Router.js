@@ -9,7 +9,11 @@ import {Home} from "../../Options/Intro/Intro"
 import {GitHub0, Netlify0,
         GitHub1, Netlify1} from "../../Options/Projects/extra/external"
 
+import {useSelector} from 'react-redux'
+
 export const Router = () => {
+  const welcState = useSelector((state) => state.welc)
+	
   const [open, setOpen] = React.useState(false);
 
   React.useEffect(()=>{
@@ -18,7 +22,6 @@ export const Router = () => {
     }, 2700)
   return ()=>clearTimeout(timer)
   }, [open])
-  if(!open) return  <h1 className={styles.welcome}>Welcome.</h1>;  
    return(
      <BrowserRouter>
        <Routes>

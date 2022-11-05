@@ -1,7 +1,9 @@
  const welcRed = function (state = false, action) {
 	switch(action.type){
 		case 'OPENED':
-		      return (state = true) 
+		      return true
+		case 'CLOSED':
+		      return false
 		 default:
 		       return state
 		       }

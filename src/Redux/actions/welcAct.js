@@ -1,8 +1,10 @@
-export const linkClick =()=> async(dispatch)=> {
-	 try{
-		   dispatch({type: 'OPENED'})
-		 }
-		 catch(error){
-			 console.log(error)
-		 }
+export const linkClick =()=> {
+	   return {
+		      type: 'OPENED'
+		   }
+	}
+export const noClick =()=> {
+	  return {
+		      type: 'CLOSED'
+		  }
 	}
