@@ -8,18 +8,17 @@ import schema from './images/schema.png'
 import atom from './images/atom.png'
 import upatom from './images/upatom.png'
 
-import {useSelector, useDispatch} from 'react-redux'
-import {linkClick, noClick} from '../../Redux/actions/welcAct'
-import {getMessages} from '../../Redux/actions/messAct'
+
 
 export function Projects(){
-	 const welcState = useSelector((state) => state.welc)
+	 /* const welcState = useSelector((state) => state.welc)
 	const dispatch = useDispatch()
   React.useEffect(()=>{
         const time = setTimeout(()=>dispatch(linkClick()),7000)
         return () => {clearTimeout(time)}
      }, [])
      console.log(welcState) 
+     */
  return (<><div 
              className={styles.store} 
              style={{display: 'grid', gridTemplateColumns:'repeat(3, 1fr)'}}>
@@ -48,7 +47,6 @@ export function Projects(){
                );
      }
      const GitHub0 = () =>{
-		   const dispatch = useDispatch()
            const [hover, handHov, handOut] = Toggler();
            return(<div 
                     className={styles.linkcont2} 
