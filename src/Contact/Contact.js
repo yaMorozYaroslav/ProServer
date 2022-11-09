@@ -9,18 +9,14 @@ export const Contact = () => {
 	const [sent, setSent] = React.useState(false)
 	const handSent = () => setSent(true)
 	const closeAlert = () => setSent(false)
-	 /* React.useEffect(()=>{
-		const closeAlert = setTimeout(() => {setSent(false)}, 5000)
-		return ()=>clearTimeout(closeAlert)
-		console.log(sent)
-		}, []) */
 	
-	const form = useRef()
+	 const form = useRef()
+	
 	 const sendEmail = (e) => {
-    e.preventDefault()
+       e.preventDefault()
 
-    emailjs.sendForm(
-     'service_wzlecr5', 'template_hu92t85', form.current, 'LTwbosNcCwgaQan9I')
+       emailjs.sendForm(
+      'service_wzlecr5', 'template_hu92t85', form.current, 'LTwbosNcCwgaQan9I')
       .then((result) => {
           console.log(result.text);
       }, (error) => {

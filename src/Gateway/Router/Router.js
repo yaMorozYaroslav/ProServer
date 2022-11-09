@@ -14,14 +14,6 @@ import {useSelector} from 'react-redux'
 export const Router = () => {
   const welcState = useSelector((state) => state.welc)
 	
-  const [open, setOpen] = React.useState(false);
-
-  React.useEffect(()=>{
-    const timer = setTimeout(()=>{
-      setOpen(true)
-    }, 2700)
-  return ()=>clearTimeout(timer)
-  }, [open])
    return(
      <BrowserRouter>
        <Routes>

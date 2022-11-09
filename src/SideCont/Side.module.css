@@ -1,3 +1,10 @@
+.picture{
+	width: 310px;
+	height: 460px;
+	margin: 5px 0px 0px 25px;
+	border-radius: 10px;
+	background-image: url("second.jpg");
+}
 .foot{
 	position: relative;
 	bottom: 273px;
@@ -12,6 +19,9 @@
 	height: 260px;
 }
 @media only screen and (max-width: 400px){
+	.picture{
+		margin: 160px 0px 0px -400px;
+	}
 	.foot{
 		left: -330px;
 
