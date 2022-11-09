@@ -8,9 +8,9 @@ export const Contact = () => {
 	
 	const [sent, setSent] = React.useState(false)
 	const handSent = () => setSent(true)
-	
-	/* React.useEffect(()=>{
-		const closeAlert = setTimeout(() => {setSent(false)}, 1000)
+	const closeAlert = () => setSent(false)
+	 /* React.useEffect(()=>{
+		const closeAlert = setTimeout(() => {setSent(false)}, 5000)
 		return ()=>clearTimeout(closeAlert)
 		console.log(sent)
 		}, []) */
@@ -41,9 +41,10 @@ export const Contact = () => {
 	         <button type="submit" onClick={handSent}>Send Message</button>
 	       </form> 
 	       </div>
-	       {sent ? <Alert sent={sent}/>:<button>2</button>}
+	       {sent ? <Alert />  :null}
+	       {sent? <button onClick={closeAlert}>close</button>:null}
 	     </section>
 	       )
 	}
-    
+    /* */
 export default  Contact
