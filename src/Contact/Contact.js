@@ -24,7 +24,7 @@ export const Contact = () => {
       });
       e.target.reset()
   }
-   console.log(sent)
+   //console.log(sent)
 	 return(
 	    <section>
 	       <div>
@@ -38,9 +38,9 @@ export const Contact = () => {
 	       </form> 
 	       </div>
 	       {sent ? <Alert />  :null}
-	       {sent? <button onClick={closeAlert}>close</button>:null}
+	      
 	     </section>
 	       )
 	}
-    /* */
+    /* {sent? <button onClick={closeAlert}>close</button>:null} */
 export default  Contact
