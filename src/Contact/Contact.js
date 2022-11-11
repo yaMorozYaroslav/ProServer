@@ -3,12 +3,19 @@ import {Alert} from '../Alert/Alert'
 
 import {useRef} from 'react'
 import emailjs from '@emailjs/browser'
+import {useSelector, useDispatch} from 'react-redux'
+
+import {open} from '../Redux/alertSlice'
 
 export const Contact = () => {
+    
+    const dispatch = useDispatch()
+    const selectAlert = state => state.alert.state
+    const alert = useSelector(selectAlert)
 	
-	const [sent, setSent] = React.useState(false)
-	const handSent = () => setSent(true)
-	const closeAlert = () => setSent(false)
+	React.useEffect(()=>{
+		console.log(alert)
+		},[alert])
 	
 	 const form = useRef()
 	
@@ -24,7 +31,6 @@ export const Contact = () => {
       });
       e.target.reset()
   }
-   //console.log(sent)
 	 return(
 	    <section>
 	       <div>
@@ -34,13 +40,13 @@ export const Contact = () => {
 	         <input type='email' placeholder='Email' name='user_email' required />
 	         <input type='text' placeholder='Subject' name='subject' required />
 	         <textarea name='message' cols='30' rows='10'></textarea>
-	         <button type="submit" onClick={handSent}>Send Message</button>
+	         <button type="submit" onClick={()=>dispatch(open())}>Send Message</button>
 	       </form> 
 	       </div>
-	       {sent ? <Alert />  :null}
+	       {alert ? <Alert />  :null}
 	      
 	     </section>
 	       )
 	}
-    /* {sent? <button onClick={closeAlert}>close</button>:null} */
+ 
 export default  Contact

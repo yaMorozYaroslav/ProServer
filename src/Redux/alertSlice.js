@@ -4,8 +4,8 @@ export const alertSlice = createSlice({
 	name: 'alert',
 	initialState: {state:false},
 	reducers: {
-		open: state => state = true,
-		close: state => state = false
+		open: state => {state.state = true},
+		close: state => {state.state = false}
 		}
 	})
 	console.log(alertSlice.actions.open())
