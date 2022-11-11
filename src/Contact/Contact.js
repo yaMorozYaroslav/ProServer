@@ -1,4 +1,6 @@
 import React from 'react'
+
+import styles from './Contact.module.css'
 import {Alert} from '../Alert/Alert'
 
 import {useRef} from 'react'
@@ -33,7 +35,7 @@ export const Contact = () => {
   }
 	 return(
 	    <section>
-	       <div>
+	       <div className={styles.contForm}>
 	       <h2>Contact me</h2>
 	       <form ref={form} onSubmit={sendEmail}>
 	         <input type='text' placeholder='Full Name' name='user' required/>

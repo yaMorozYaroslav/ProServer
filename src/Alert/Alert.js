@@ -1,6 +1,6 @@
 import React from 'react'
 import {close} from '../Redux/alertSlice'
-import {useDispatch, useSelector} from 'react-redux'
+import {useDispatch} from 'react-redux'
 
 export const Alert = () => {
 	const dispatch = useDispatch()
