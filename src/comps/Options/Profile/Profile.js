@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Profile.module.css';
-import photo from './me.jpg';
+import photo from './myPhoto.jpg';
 import gear from './gear.png';
 export const Profile = () => {
 	return( <><div  className={styles.container}>

@@ -7,7 +7,7 @@ import {useRef} from 'react'
 import emailjs from '@emailjs/browser'
 import {useSelector, useDispatch} from 'react-redux'
 
-import {open} from '../Redux/alertSlice'
+import {open} from '../../Redux/alertSlice'
 
 export const Contact = () => {
     

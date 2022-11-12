@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './DuoHead.module.css';
+import styles from './Header.module.css';
 function TwinHead(props) {
 	return(
    <div className={styles.double}>
@@ -8,7 +8,7 @@ function TwinHead(props) {
    </div>
 		)
 }
-export function DuoHead(){
+export function Header(){
   return(
   <TwinHead
     one ={<div className={styles.head}>

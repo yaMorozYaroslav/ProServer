@@ -1,5 +1,5 @@
 import React from 'react'
-import {close} from '../Redux/alertSlice'
+import {close} from '../../Redux/alertSlice'
 import {useDispatch} from 'react-redux'
 
 export const Alert = () => {
