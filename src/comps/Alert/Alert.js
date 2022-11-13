@@ -1,5 +1,5 @@
 import React from 'react'
-import {close} from '../../Redux/alertSlice'
+import {closeAlert} from '../../Redux/openSlice'
 import {useDispatch} from 'react-redux'
 
 export const Alert = () => {
@@ -8,7 +8,7 @@ export const Alert = () => {
 	return(
 	<section>
 	<h1>You've sent the message</h1>
-	<button onClick={()=>dispatch(close())}>close</button>
+	<button onClick={()=>dispatch(closeAlert())}>close</button>
 	</section>
 	)
 	}

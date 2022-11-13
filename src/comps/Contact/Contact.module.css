@@ -1,3 +1,10 @@
 .contForm{
-width: 400px
+width: 400px;
+margin-left: 50px;
+position: relative;
+z-index: 2
+
+}
+.button{
+width: 300px
 }

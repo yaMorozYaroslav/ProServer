@@ -1,9 +1,9 @@
 import {configureStore} from '@reduxjs/toolkit'
 
-import alertReducer from './alertSlice'
+import openReducer from './openSlice'
 
 export const store = configureStore({
 	reducer: {
-		alert: alertReducer
+		open: openReducer
 		}
 	})

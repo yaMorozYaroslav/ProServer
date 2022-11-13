@@ -7,12 +7,12 @@ import {useRef} from 'react'
 import emailjs from '@emailjs/browser'
 import {useSelector, useDispatch} from 'react-redux'
 
-import {open} from '../../Redux/alertSlice'
+import {openAlert} from '../../Redux/openSlice'
 
 export const Contact = () => {
     
     const dispatch = useDispatch()
-    const selectAlert = state => state.alert.state
+    const selectAlert = state => state.open.alert
     const alert = useSelector(selectAlert)
 	
 	React.useEffect(()=>{
@@ -42,7 +42,7 @@ export const Contact = () => {
 	         <input type='email' placeholder='Email' name='user_email' required />
 	         <input type='text' placeholder='Subject' name='subject' required />
 	         <textarea name='message' cols='30' rows='10'></textarea>
-	         <button type="submit" onClick={()=>dispatch(open())}>Send Message</button>
+	         <button className={styles.button} type="submit" onClick={()=>dispatch(openAlert())}>Send Message</button>
 	       </form> 
 	       </div>
 	       {alert ? <Alert />  :null}

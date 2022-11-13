@@ -1,13 +1,15 @@
-import React from 'react';
-import styles from './Header.module.css';
-function TwinHead(props) {
+import React from 'react'
+import styles from './Header.module.css'
+
+ function TwinHead(props) {
 	return(
    <div className={styles.double}>
     <div>{props.one}</div>
     <div>{props.two}</div>
    </div>
 		)
-}
+} 
+
 export function Header(){
   return(
   <TwinHead

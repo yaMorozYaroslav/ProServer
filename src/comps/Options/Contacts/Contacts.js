@@ -1,7 +1,15 @@
 import React from 'react';
 import styles from './Contacts.module.css';
 import element from './element.png';
+
+import {useLocation} from 'react-router-dom'
+
 export function Contacts(){
+	const location = useLocation()
+	const {pathname} = location
+	const splitLocation = pathname.split("/")
+	console.log(splitLocation)
+	
 	const Number = () =>{
 		return (<><h1 className={styles.label}>Number</h1>
 			      <p className={styles.discr}>+1 902 877 5222</p></>)};
