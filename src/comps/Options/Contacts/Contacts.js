@@ -8,7 +8,6 @@ export function Contacts(){
 	const location = useLocation()
 	const {pathname} = location
 	const splitLocation = pathname.split("/")
-	console.log(splitLocation)
 	
 	const Number = () =>{
 		return (<><h1 className={styles.label}>Number</h1>

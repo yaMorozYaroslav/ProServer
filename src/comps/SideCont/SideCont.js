@@ -6,8 +6,8 @@ export function SideCont(){
    
    React.useEffect(()=>{
    	const timeout = setTimeout(()=>{
-   		                                                   setShow(true)
-   	     }, 400)
+   		                  setShow(true)
+   	                              }, 400)
   	return()=>clearTimeout(timeout)
          }, [show])
    if(!show)return null
