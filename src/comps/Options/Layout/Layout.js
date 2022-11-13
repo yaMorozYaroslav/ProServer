@@ -3,7 +3,7 @@ import {Outlet, Link} from "react-router-dom";
 import styles from'./Layout.module.css';
 import {useLocation} from "react-router-dom";
 
-import {useDispatch} from 'react-redux'
+import {useDispatch, useSelector} from 'react-redux'
 import {closeContact, openContact} from '../../../Redux/openSlice'
 
 export const Layout = () => {
@@ -11,9 +11,18 @@ export const Layout = () => {
 	const {pathname} = location;
 	const splitLocation = pathname.split("/")
 	
+	const dispatch = useDispatch()
+	const selectContact = state => state.open.contact
+	const contact = useSelector(selectContact)
+	
 	React.useEffect(()=>{
-		if(splitLocation[1]==="contacts") console.log(location)
+	   if(splitLocation[1]==="contacts") dispatch(openContact()) 
+	   if(splitLocation[1]!=="contacts") dispatch(closeContact())
 		},[location])
+	React.useEffect(()=>{
+	     console.log(contact)
+	    //if(contact === true) console.log(contact)
+		},[contact])
 	return(
 		<>
 		  <nav >

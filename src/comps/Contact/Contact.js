@@ -15,9 +15,9 @@ export const Contact = () => {
     const selectAlert = state => state.open.alert
     const alert = useSelector(selectAlert)
 	
-	React.useEffect(()=>{
+	/* React.useEffect(()=>{
 		console.log(alert)
-		},[alert])
+		},[alert]) */
 	
 	 const form = useRef()
 	
