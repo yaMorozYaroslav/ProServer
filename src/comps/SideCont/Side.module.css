@@ -1,20 +1,20 @@
 .picture{
-	width: 310px;
+	width: 330px;
 	height: 460px;
-	margin: 5px 0px 0px 25px;
+	margin: 5px 0px 0px 16px;
 	border-radius: 10px;
 	background-image: url("second.jpg");
 }
 .foot{
 	position: relative;
 	bottom: 273px;
-	left: 95px;
+	left: 87px;
     width: 200px;
 	height:200px;
 }
 .foot:hover{
 	bottom: 304px;
-	left: 65px;
+	left: 57px;
 	width: 260px;
 	height: 260px;
 }

@@ -1,11 +1,4 @@
 
-.red{
-	width: 600px;
-	height:  550px;
-	border-radius: 200px;
-	margin: -10px 10px 0px 630px;
-
-}
 
 .mainside{
 	display: flex;
@@ -13,22 +6,7 @@
 .unit1{
 	width: 1000px;
 }
-@media only screen and (max-width: 1200px){
-  .red{
-	width: 600px;
-	height:  500px;
-	margin: 50px 10px 0px 350px;
-	}
 
-}
-
-@media only screen and (max-width: 900px){
-  .red{
-	width: 300px;
-	height:  400px;
-	margin: 0px 10px 0px 30px;
-	}
-}
 @media only screen and (max-width: 400px){
  .red{
 	width:370px;

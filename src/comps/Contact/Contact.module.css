@@ -3,7 +3,9 @@ width: 300px;
 margin-left: 50px;
 position: relative;
 z-index: 2;
-
+}
+.input{
+width:250px
 }
 .button{
 width: 300px
