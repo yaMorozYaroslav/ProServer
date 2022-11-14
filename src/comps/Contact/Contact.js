@@ -38,10 +38,14 @@ export const Contact = () => {
 	       <div className={styles.contForm}>
 	       <h2>Contact me</h2>
 	       <form ref={form} onSubmit={sendEmail}>
-	         <input type='text' placeholder='Full Name' name='user' required/>
-	         <input type='email' placeholder='Email' name='user_email' required />
-	         <input type='text' placeholder='Subject' name='subject' required />
-	         <textarea name='message' cols='30' rows='10'></textarea>
+	         <input className={styles.input}
+				                   type='text' placeholder='Full Name' name='user' required/>
+	         <input className={styles.input} 
+				               type='email' placeholder='Email' name='user_email' required />
+	         <input className={styles.input}
+				                 type='text' placeholder='Subject' name='subject' required />
+	         <textarea className={styles.textarea}
+				                               name='message' cols='30' rows='5'></textarea>
 	         <button className={styles.button} type="submit" onClick={()=>dispatch(openAlert())}>Send Message</button>
 	       </form> 
 	       </div>
