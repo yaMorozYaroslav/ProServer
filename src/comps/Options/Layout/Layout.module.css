@@ -14,7 +14,7 @@
 	border-radius: 10px;
 	background-color: black;
 	opacity: 1;
-	margin: 10px 20px 5px 20px;
+	margin: 15px 20px 10px 20px;
 
 }
 .bud{
@@ -39,7 +39,7 @@
 
 }
 .murrent:hover{
-	font-size: 32px;
+	font-size: 33px;
 }
 .outlet{
 	width: 1000px;
