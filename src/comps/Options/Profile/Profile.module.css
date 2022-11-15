@@ -6,7 +6,7 @@
 	margin:70px 0px 0px 180px;
 }
 .photo{
-margin:-30px 10px 0px 15px;
+margin:-30px 10px 0px 30px;
 width: 220px;
 height: 330px;
 border-radius:  5px;
@@ -37,7 +37,7 @@ font-family: 'Playfair Display', serif;
 }
 .gear{
 	width: 400px;
-	margin: -100px 0px 0px 955px;
+	margin: -117px 0px 0px 1049px;
 }
 @media only screen and (max-width: 400px){
 	.container{
