@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.nav{
+    margin:4px 10px 0px 0px;
+    background-color: black;
+    border-radius: 10px;
+}
 .div{
-
-	display:flex;
-	margin:5px 10px 10px 90px;
-	list-style-type: none;
-	background-color: black;
-	border-radius: 10px;
-	width: 920px;
-	height: 65px;
-
-
+	
 }
 .but{
 	height: 50px;
@@ -63,10 +59,14 @@
 	left: 90px;
     z-index:  1;
 }
-@media only screen and (max-width: 400px){
-	.div{
+@media only screen and (max-width: 450px){
+.nav{
+   display:flex;
+}
+.div{
 		margin:0px 10px 10px 0px;
-		width: 400px;
+		width: 200px;
+		height: 200px;
 	}
 
 .layout{

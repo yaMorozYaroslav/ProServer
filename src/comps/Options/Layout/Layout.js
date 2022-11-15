@@ -25,7 +25,7 @@ export const Layout = () => {
 		},[contact])
 	return(
 		<>
-		  <nav >
+		  <nav className={styles.nav}>
 		    <div className={styles.div}>
 		      <button className={splitLocation[1]===""
 		                        ?styles.bud:styles.but}>
