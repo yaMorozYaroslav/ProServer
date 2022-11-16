@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 .nav{
-    margin:4px 10px 0px 0px;
+    width: 920px;
+    margin:4px 10px 0px 90px;
     background-color: black;
-    border-radius: 10px;
+    border-radius: 10px;  
 }
 .div{
 	
@@ -14,8 +15,7 @@
 	border-radius: 10px;
 	background-color: black;
 	opacity: 1;
-	margin: 15px 20px 10px 20px;
-
+	margin: 10px 12px 10px 12px;
 }
 .bud{
 	height: 55px;
@@ -23,7 +23,7 @@
 	border: 1px solid black;
 	background-color: steelblue;
 	border-radius: 10px;
-    margin: 5px 20px 0px 20px;
+    margin: 10px 12px 10px 12px;
 }
 .current{
 	font-size: 28px;
