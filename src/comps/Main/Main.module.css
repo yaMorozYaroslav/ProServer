@@ -3,17 +3,20 @@
 .mainside{
 	display: flex;
 }
-.unit1{
+.router{
 	width: 1000px;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 450px){
+ .mainside{
+  display: inline
+ }
  .red{
 	width:370px;
 	height: 250px;
 	margin: 180px 10px 0px -5px;
 	}
- .unit1{
-	width:  400px;
-}
+ .router{
+	width:  100%;
+  }
 }

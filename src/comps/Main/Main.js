@@ -16,11 +16,11 @@ export function Main(){
         
              <div className={styles.mainside}>
 
-                   <div className={styles.unit1}><Router/></div>
+                   <div className={styles.router}><Router/></div>
                   
                         <div className={styles.sidecont}>
                             
-                            <div className={styles.unit2}>{contact?<Contact />:<SideCont/>}</div>
+                            <div>{contact?<Contact />:<SideCont/>}</div>
                         </div>
              </div>
        }
