@@ -4,18 +4,13 @@
 	display: flex;
 }
 .router{
-	width: 1000px;
+	width: 100%;
 }
 
 @media only screen and (max-width: 450px){
  .mainside{
   display: inline
  }
- .red{
-	width:370px;
-	height: 250px;
-	margin: 180px 10px 0px -5px;
-	}
  .router{
 	width:  100%;
   }

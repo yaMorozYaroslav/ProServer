@@ -20,7 +20,7 @@ export function Main(){
                   
                         <div className={styles.sidecont}>
                             
-                            <div>{contact?<Contact />:<SideCont/>}</div>
+                            {contact?<Contact />:<SideCont/>}
                         </div>
              </div>
        }
