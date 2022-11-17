@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
 .double{
 	display:  flex;
-	width: 100%
+	width: 100%;
+
 }
 .head{
   font-family: 'Sorts Mill Goudy', serif;
@@ -12,11 +13,11 @@
   background-image: url("./mesk.jpg");
 }
 .text{
-	margin: 15px 20px 0px 0px;
+	margin: 20px 20px 0px 0px;
 }
 
 .block{
-	margin:0px 0px 0px 0px;
+	margin:0px 0px 0px 10px;
 	display: flex;
 	color:white;
 }
@@ -30,7 +31,16 @@
 }
 @media only screen and (max-width:450px){
 .double{
- width:100%
+    
+}
+.head{
+    width: 100%;
+    margin-left: 0%;
+    font-size: 25px
+    
+    }
+.text{
+    
 }
 .nohead{
 	display:  none;

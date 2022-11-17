@@ -18,12 +18,11 @@ export function Main(){
 
                    <div className={styles.router}><Router/></div>
                   
-                        <div className={styles.sidecont}>
-                            
-                            {contact?<Contact />:<SideCont/>}
-                        </div>
+                   <div className={styles.sidecont}>
+                               {contact?<Contact />:<SideCont/>}
+                   </div>
              </div>
-       }
+       
           </>
 } 
 
