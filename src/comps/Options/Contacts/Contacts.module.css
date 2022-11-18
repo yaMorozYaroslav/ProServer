@@ -43,7 +43,7 @@
 	top: -160px;
 	left: 663px;
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 450px){
 	.can{
 	width:400px;
 	margin:70px 0px 0px -90px;
@@ -85,7 +85,7 @@
 }
 .element{
 	position:  relative;
-	width: 470px;
+	width: 100%;
 	top: -200px;
 	left: 30px;
 }

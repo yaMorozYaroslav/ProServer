@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import pic from './eye.png';
 import styles from './Side.module.css';
 export function SideCont(){
@@ -14,7 +14,7 @@ export function SideCont(){
    
     return (<section>
                  <h1 className={styles.picture}> </h1>
-                 <img className={styles.foot} alt="eye" src={pic} />
+                 <img className={styles.eye} alt="eye" src={pic} />
                            </section>)
 
 }

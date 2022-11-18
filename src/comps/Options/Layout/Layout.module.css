@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 .nav{
-    width: 920px;
-    margin:4px 10px 0px 90px;
+    width: 100%;
+    margin:4px 10px 0px 5%;
     background-color: black;
     border-radius: 10px;  
 }
@@ -44,7 +44,7 @@
 .outlet{
 	width: 1000px;
 	height: 500px;
-	margin-left: -80px;
+	margin-left: 5%;
 	position: relative;
 	z-index: 2;
 }
@@ -56,15 +56,15 @@
 	background-color: black;
 	position:  relative;
 	top: -570px;
-	left: 90px;
+	left: 5%;
     z-index:  1;
 }
 @media only screen and (max-width: 450px){
 .nav{
    display:flex;
    margin:0px 10px 10px 0px;
-   width: 100%;
    height: 100px;
+   justify-content: center;
 }
 
 .layout{
@@ -72,14 +72,14 @@
 	left: 0px;
 }
 .but{
-	width: 180px;
+	width: 120px;
 	height: 40px;
-	margin: 5px 0px 0px 5px;
+	margin: 7px 0px 0px 20px;
 }
 .bud{
-	width: 180px;
+	width: 120px;
 	height: 40px;
-   margin: 5px 0px 0px 5px;
+   margin: 6px 0px 0px 20px;
 }
 .current{
 	font-size: 12px;

@@ -1,8 +1,7 @@
 import React from 'react';
 import styles from './Main.module.css'
-import {Router} from '../Router/Router';
-import {SideCont} from '../SideCont/SideCont';
-//import img from './touch.png'
+import {Router} from '../Router/Router'
+import {SideCont} from '../SideCont/SideCont'
 import {Contact} from '../Contact/Contact'
 
 import {useSelector} from 'react-redux'

@@ -29,15 +29,14 @@ export const Layout = () => {
 		    <div className={styles.div}>
 		      <button className={splitLocation[1]===""
 		                        ?styles.bud:styles.but}>
-		        <Link className={splitLocation[1]===""
-		                        ?styles.current:styles.murrent}
-		                         to="/">Introduction</Link>
-		       </button>
-		       <button className={splitLocation[1]==="profile"
-		                        ?styles.bud:styles.but}>
-		         <Link className={splitLocation[1]==="profile"
-		                         ?styles.current:styles.murrent} 
-		                         to="/profile">Profile</Link>
+		        <Link className={splitLocation[1]===""?styles.current:styles.murrent}
+		              to="/">Introduction
+		        </Link>
+		      </button>
+		      <button className={splitLocation[1]==="profile"?styles.bud:styles.but}>
+		        <Link className={splitLocation[1]==="profile"?styles.current:styles.murrent} 
+		              to="/profile">Profile
+		        </Link>
 		       </button>
 		       <button className={splitLocation[1]==="projects"
 		                        ?styles.bud:styles.but}>
