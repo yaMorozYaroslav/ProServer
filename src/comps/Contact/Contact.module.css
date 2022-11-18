@@ -1,6 +1,6 @@
 .contForm{
 width: 300px;
-margin-left: 0px;
+margin-left: 5%;
 position: relative;
 z-index: 2;
 }
@@ -12,8 +12,8 @@ width: 300px
 }
 @media only screen and (max-width:450px){
 .contForm{
-position: static;
-width: 100%;
+
+width: 90%;
  }
 .input{
 width:100%
