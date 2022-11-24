@@ -89,9 +89,9 @@
 .schema{
 	width: 350px;
 	height: 220px;
-	margin: -55px 0px 0px 1000px;
+	margin: -55px 0px 0px 1083px;
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 450px){
 	.store{
     margin-left: -95px;
 }

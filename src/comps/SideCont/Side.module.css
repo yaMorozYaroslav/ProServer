@@ -1,29 +1,29 @@
 .picture{
-	width: 310px;
+	width: 330px;
 	height: 460px;
-	margin: 5px 0px 0px 25px;
+	margin: 5px 0px 0px 16px;
 	border-radius: 10px;
 	background-image: url("second.jpg");
 }
-.foot{
+.eye{
 	position: relative;
 	bottom: 273px;
-	left: 95px;
+	left: 87px;
     width: 200px;
 	height:200px;
 }
-.foot:hover{
+.eye:hover{
 	bottom: 304px;
-	left: 65px;
+	left: 57px;
 	width: 260px;
 	height: 260px;
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 450px){
 	.picture{
-		margin: 160px 0px 0px -400px;
+		display: none;
 	}
-	.foot{
-		left: -330px;
+	.eye{
+		display: none;
 
 	}
 }

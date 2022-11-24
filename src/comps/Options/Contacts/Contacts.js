@@ -2,13 +2,8 @@ import React from 'react';
 import styles from './Contacts.module.css';
 import element from './element.png';
 
-import {useLocation} from 'react-router-dom'
 
 export function Contacts(){
-	const location = useLocation()
-	const {pathname} = location
-	const splitLocation = pathname.split("/")
-	console.log(splitLocation)
 	
 	const Number = () =>{
 		return (<><h1 className={styles.label}>Number</h1>
@@ -27,7 +22,7 @@ export function Contacts(){
     	return (<><h1 className={styles.label}>GitHub</h1>
     	          <p className={styles.dicr}>github.com/yaMorozYaroslav</p></>)};
     const City = () =>{
-  return <h1 className={styles.city}>NS, Halifax 2022</h1>
+  return <h1 className={styles.city}>NS, Dartmouth 2022</h1>
     }
     const Element = () => {
     	return <img src={element} alt="some"
