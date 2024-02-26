@@ -6,7 +6,7 @@
   "type": "module",
   "engines": {
     "node": "21.6.2",
-    "npm": "10.2.4"
+    "yarn": "4.1.0"
   },
   "scripts": {
     "start": "nodemon index.js"
@@ -23,5 +23,6 @@
     "mongodb": "^6.3.0",
     "mongoose": "^8.2.0",
     "nodemon": "^3.1.0"
-  }
+  },
+  "packageManager": "yarn@4.1.0"
 }
