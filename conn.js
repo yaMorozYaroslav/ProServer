@@ -6,7 +6,7 @@ dotenv.config()
 const connectionString = process.env.CONNECTION_URL || ""
 
 const client = new MongoClient(connectionString)
-//info
+
 let conn;
 try {
   conn = await client.connect()
